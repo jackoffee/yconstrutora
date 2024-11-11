@@ -1,0 +1,1155 @@
+<!DOCTYPE html><html lang="pt-BR" dir="ltr" data-config="{" twitter":0,"plusone":0,"facebook":0,"style":"rayzbek"}"=""><head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="1.2.6",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this.t.bind(this),this.touchStartHandler=this.i.bind(this),this.touchMoveHandler=this.o.bind(this),this.touchEndHandler=this.h.bind(this),this.clickHandler=this.u.bind(this),this.interceptedClicks=[],this.interceptedClickListeners=[],this.l(this),window.addEventListener("pageshow",(t=>{this.persisted=t.persisted,this.everythingLoaded&&this.m()})),this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",(t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))})),document.addEventListener("DOMContentLoaded",(()=>{this.k()})),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}p(t){document.hidden?t.t():(this.triggerEvents.forEach((e=>window.addEventListener(e,t.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler))}_(){this.triggerEvents.forEach((t=>window.removeEventListener(t,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}i(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this.L(t.target,!0),this.S(t.target,"onclick","rocket-onclick"),this.C())}o(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.M()}h(){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}u(t){t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this.M()}O(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))}))}l(t){EventTarget.prototype.addEventListenerWPRocketBase=EventTarget.prototype.addEventListener,EventTarget.prototype.addEventListener=function(e,i,o){"click"!==e||t.windowLoaded||i===t.clickHandler||t.interceptedClickListeners.push({target:this,func:i,options:o}),(this||window).addEventListenerWPRocketBase(e,i,o)}}L(t,e){this.interceptedClickListeners.forEach((i=>{i.target===t&&(e?t.removeEventListener("click",i.func,i.options):t.addEventListener("click",i.func,i.options))})),t.parentNode!==document.documentElement&&this.L(t.parentNode,e)}D(){return new Promise((t=>{this.P?this.M=t:t()}))}C(){this.P=!0}M(){this.P=!1}S(t,e,i){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(i,event.target.getAttribute(e)),event.target.removeAttribute(e))}t(){this._(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this.R.bind(this)):this.R()}k(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript][data-rocket-src]").forEach((e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){0===i.indexOf("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}})),t=[...new Map(t.map((t=>[JSON.stringify(t),t]))).values()],this.T(t,"preconnect")}async R(){this.lastBreath=Date.now(),this.j(this),this.F(this),this.I(),this.W(),this.q(),await this.A(this.delayedScripts.normal),await this.A(this.delayedScripts.defer),await this.A(this.delayedScripts.async);try{await this.U(),await this.H(this),await this.J()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.D().then((()=>{this.O()})),this.N()}W(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)}))}async B(t){if(await this.G(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise((e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach((t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))})),t.text&&(i.text=t.text),i.hasAttribute("src")?(i.addEventListener("load",o),i.addEventListener("error",(function(){i.setAttribute("data-rocket-status","failed-network"),e()})),setTimeout((()=>{i.isConnected||e()}),1)):(i.text=t.text,o()),t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o),t.addEventListener("error",(i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: data-uri blocked by CSP -> fallback"),t.removeAttribute("src"),this.B(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())})),s?(t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}}));t.setAttribute("data-rocket-status","skipped")}async A(t){const e=t.shift();return e&&e.isConnected?(await this.B(e),this.A(t)):Promise.resolve()}q(){this.T([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}T(t,e){var i=document.createDocumentFragment();t.forEach((t=>{const o=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(o&&!o.startsWith("data:")){const s=document.createElement("link");s.href=o,s.rel=e,"preconnect"!==e&&(s.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(s.crossOrigin=!0),t.crossOrigin&&(s.crossOrigin=t.crossOrigin),t.integrity&&(s.integrity=t.integrity),i.appendChild(s),this.trash.push(s)}})),document.head.appendChild(i)}j(t){let e={};function i(i,o){return e[o].eventsToRewrite.indexOf(i)>=0&&!t.everythingLoaded?"rocket-"+i:i}function o(t,o){!function(t){e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(o)}function s(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o||function(){},set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}o(document,"DOMContentLoaded"),o(window,"DOMContentLoaded"),o(window,"load"),o(window,"pageshow"),o(document,"readystatechange"),s(document,"onreadystatechange"),s(window,"onload"),s(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}F(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map((t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t)).join(" ")}function o(o){function s(t){const e=o.fn[t];o.fn[t]=o.fn.init.prototype[t]=function(){return this[0]===window&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e}))),e.apply(this,arguments),this}}o&&o.fn&&!t.allJQueries.includes(o)&&(o.fn.ready=o.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(o):document.addEventListener("rocket-DOMContentLoaded",(()=>e.bind(document)(o))),o([])},s("on"),s("one"),t.allJQueries.push(o)),e=o}o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}async H(t){const e=document.querySelector("script[data-webpack]");e&&(await async function(){return new Promise((t=>{e.addEventListener("load",t),e.addEventListener("error",t)}))}(),await t.K(),await t.H(t))}async U(){this.domReadyFired=!0;try{document.readyState="interactive"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.G(),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}async J(){try{document.readyState="complete"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),window.dispatchEvent(new Event("rocket-load")),await this.G(),window.rocketonload&&window.rocketonload(),await this.G(),this.allJQueries.forEach((t=>t(window).trigger("rocket-jquery-load"))),await this.G();const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.G(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted}),this.windowLoaded=!0}m(){document.onreadystatechange&&document.onreadystatechange(),window.onload&&window.onload(),window.onpageshow&&window.onpageshow({persisted:this.persisted})}I(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript;i||console.error("WPRocket unable to document.write this: "+e);const o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async G(){Date.now()-this.lastBreath>45&&(await this.K(),this.lastBreath=Date.now())}async K(){return document.hidden?new Promise((t=>setTimeout(t))):new Promise((t=>requestAnimationFrame(t)))}N(){this.trash.forEach((t=>t.remove()))}static run(){const t=new RocketLazyLoadScripts;t.p(t)}}RocketLazyLoadScripts.run()})();</script>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="text/javascript">
+/* <![CDATA[ */
+ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}}); 
+/* ]]> */
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Y Construtora | Construtora e Incorporadora</title><link rel="preload" data-rocket-preload="" as="image" href="https://ryazbek.com.br/wp-content/uploads/2022/01/banner-vila-nova-conceicao.jpg" fetchpriority="high"><link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="images/apple_touch_icon.png">
+
+<meta name="description" content="Para concepção e construção de seus empreendimentos, a Y Construtora analisa e escolhe cuidadosamente o local onde será desenvolvido o empreendimento.">
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+<link rel="canonical" href="#">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Y Construtora | Construtora e Incorporadora">
+<meta property="og:description" content="Para concepção e construção de seus empreendimentos, a Y Construtora analisa e escolhe cuidadosamente o local onde será desenvolvido o empreendimento.">
+<meta property="og:url" content="#">
+<meta property="og:site_name" content="Y Construtora">
+<meta property="og:updated_time" content="2020-03-10T08:43:01-03:00">
+<meta property="article:published_time" content="2019-09-19T16:20:11-03:00">
+<meta property="article:modified_time" content="2020-03-10T08:43:01-03:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Y Construtora | Construtora e Incorporadora">
+<meta name="twitter:description" content="Para concepção e construção de seus empreendimentos, a Y Construtora analisa e escolhe cuidadosamente o local onde será desenvolvido o empreendimento.">
+<meta name="twitter:label1" content="Escrito por">
+<meta name="twitter:data1" content="admin.via">
+<meta name="twitter:label2" content="Tempo para leitura">
+<meta name="twitter:data2" content="Menos de um minuto">
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"#","name":"Y Construtora","url":"https://github.com/jackoffee","sameAs":["#"],"logo":{"@type":"ImageObject","@id":"https://ryazbek.com.br/#logo","url":"https://ryazbek.com.br/wp-content/uploads/2019/09/Logo.svg","contentUrl":"https://ryazbek.com.br/wp-content/uploads/2019/09/Logo.svg","caption":"R.Yazbek","inLanguage":"pt-BR"}},{"@type":"WebSite","@id":"#","url":"#","name":"Y Construtora","publisher":{"@id":"https://ryazbek.com.br/#organization"},"inLanguage":"pt-BR","potentialAction":{"@type":"SearchAction","target":"https://ryazbek.com.br/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://ryazbek.com.br/wp-content/uploads/2019/09/Logo.svg","url":"https://ryazbek.com.br/wp-content/uploads/2019/09/Logo.svg","width":"200","height":"200","inLanguage":"pt-BR"},{"@type":"WebPage","@id":"#","url":"#","name":"Y Construtora | Construtora e Incorporadora","datePublished":"2019-09-19T16:20:11-03:00","dateModified":"2020-03-10T08:43:01-03:00","about":{"@id":"#"},"isPartOf":{"@id":"#"},"primaryImageOfPage":{"@id":"https://ryazbek.com.br/wp-content/uploads/2019/09/Logo.svg"},"inLanguage":"pt-BR"},{"@type":"Person","@id":"#","name":"admin.via","url":"#","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/737bdba9067dd5ae79cc08abc5a798bb?s=96&d=mm&r=g","url":"https://secure.gravatar.com/avatar/737bdba9067dd5ae79cc08abc5a798bb?s=96&d=mm&r=g","caption":"admin.via","inLanguage":"pt-BR"},"worksFor":{"@id":"#"}},{"@type":"Article","headline":"Y Construtora | Construtora e Incorporadora","datePublished":"2019-09-19T16:20:11-03:00","dateModified":"2020-03-10T08:43:01-03:00","author":{"@id":"#","name":"admin.via"},"publisher":{"@id":"#"},"description":"Para concep\u00e7\u00e3o e constru\u00e7\u00e3o de seus empreendimentos, a Y Construtora analisa e escolhe cuidadosamente o local onde ser\u00e1 desenvolvido o empreendimento.","name":"Y Construtora | Construtora e Incorporadora","@id":"#","isPartOf":{"@id":"#"},"image":{"@id":"https://ryazbek.com.br/wp-content/uploads/2019/09/Logo.svg"},"inLanguage":"pt-BR","mainEntityOfPage":{"@id":"#"}}]}</script>
+
+<link rel="stylesheet" id="gforms_reset_css-css" href="css/formreset.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="gforms_formsmain_css-css" href="css/formsmain.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="gforms_ready_class_css-css" href="css/readyclass.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="gforms_browsers_css-css" href="css/browsers.min.css" type="text/css" media="all">
+<style id="wp-emoji-styles-inline-css" type="text/css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="css/style.min.css" type="text/css" media="all">
+<style id="rank-math-toc-block-style-inline-css" type="text/css">
+.wp-block-rank-math-toc-block nav ol{counter-reset:item}.wp-block-rank-math-toc-block nav ol li{display:block}.wp-block-rank-math-toc-block nav ol li:before{content:counters(item, ".") ". ";counter-increment:item}
+
+</style>
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css" type="text/css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<style id="rocket-lazyload-inline-css" type="text/css">
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(images/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}
+</style>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://ryazbek.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://ryazbek.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" defer="defer" data-rocket-src="https://ryazbek.com.br/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.8.18" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gf_global = {"gf_currency_config":{"name":"Real brasileiro","symbol_left":"R$","symbol_right":"","symbol_padding":" ","thousand_separator":".","decimal_separator":",","decimals":2,"code":"BRL"},"base_url":"https:\/\/ryazbek.com.br\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/ryazbek.com.br\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"c04dc12b286c6dcd26bc4362893a58e8","strings":{"newRowAdded":"Nova linha adicionada.","rowRemoved":"Linha removida","formSaved":"O formul\u00e1rio foi salvo. O conte\u00fado cont\u00e9m o link para retornar e preencher o formul\u00e1rio."}};
+var gform_i18n = {"datepicker":{"days":{"monday":"Seg","tuesday":"Ter","wednesday":"Qua","thursday":"Qui","friday":"Sex","saturday":"S\u00e1b","sunday":"Dom"},"months":{"january":"janeiro","february":"fevereiro","march":"mar\u00e7o","april":"abril","may":"Maio","june":"junho","july":"julho","august":"agosto","september":"setembro","october":"outubro","november":"novembro","december":"dezembro"},"firstDay":0,"iconText":"Selecione uma data"}};
+var gf_legacy_multi = {"1":"1"};
+var gform_gravityforms = {"strings":{"invalid_file_extension":"Este tipo de arquivo n\u00e3o \u00e9 permitido. Deve ser um dos seguintes:","delete_file":"Excluir este arquivo","in_progress":"em progresso","file_exceeds_limit":"O arquivo excede o limite de tamanho.","illegal_extension":"Este tipo de arquivo n\u00e3o \u00e9 permitido.","max_reached":"O n\u00famero m\u00e1ximo arquivos permitidos foi atingido.","unknown_error":"Ocorreu um erro ao salvar o arquivo no servidor","currently_uploading":"Aguarde o envio ser completado","cancel":"Cancelar","cancel_upload":"Cancelar este envio","cancelled":"Cancelado"},"vars":{"images_url":"https:\/\/ryazbek.com.br\/wp-content\/plugins\/gravityforms\/images"}};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" defer="defer" data-rocket-src="https://ryazbek.com.br/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.8.18" id="gform_gravityforms-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" defer="defer" data-rocket-src="https://ryazbek.com.br/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=50c7bea9c2320e16728e44ae9fde5f26" id="gform_gravityforms_utils-js"></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://ryazbek.com.br/wp-content/cache/min/1/wp-content/plugins/widgetkit/cache/uikit2-3005b9de.js?ver=1731086924" id="uikit2-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://ryazbek.com.br/wp-content/cache/min/1/wp-content/plugins/widgetkit/cache/wk-scripts-2c3b27f2.js?ver=1731086924" id="wk-scripts-js" data-rocket-defer="" defer=""></script>
+<link rel="https://api.w.org/" href="https://ryazbek.com.br/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://ryazbek.com.br/wp-json/wp/v2/pages/10"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ryazbek.com.br/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.6.2">
+<link rel="shortlink" href="#">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://ryazbek.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fryazbek.com.br%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://ryazbek.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fryazbek.com.br%2F&amp;format=xml">
+<link rel="icon" href="images/cropped-icon-150x150.png" sizes="32x32">
+<link rel="icon" href="images/cropped-icon-300x300.png" sizes="192x192">
+<link rel="apple-touch-icon" href="images/cropped-icon-300x300.png">
+<meta name="msapplication-TileImage" content="https://ryazbek.com.br/wp-content/uploads/2020/01/cropped-icon-300x300.png">
+		<style type="text/css" id="wp-custom-css">
+			@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');		</style>
+		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><link data-minify="1" rel="stylesheet" href="css/theme.css">
+<link data-minify="1" rel="stylesheet" href="css/custom.css">
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://ryazbek.com.br/wp-content/cache/min/1/wp-content/themes/ryazbek/warp/vendor/uikit/js/uikit.js?ver=1731086924" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://ryazbek.com.br/wp-content/cache/min/1/wp-content/themes/ryazbek/warp/vendor/uikit/js/components/autocomplete.js?ver=1731086924" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://ryazbek.com.br/wp-content/cache/min/1/wp-content/themes/ryazbek/warp/vendor/uikit/js/components/search.js?ver=1731086924" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://ryazbek.com.br/wp-content/cache/min/1/wp-content/themes/ryazbek/warp/vendor/uikit/js/components/tooltip.js?ver=1731086924" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://ryazbek.com.br/wp-content/cache/min/1/wp-content/themes/ryazbek/warp/vendor/uikit/js/components/sticky.js?ver=1731086924" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://ryazbek.com.br/wp-content/cache/min/1/wp-content/themes/ryazbek/warp/js/social.js?ver=1731086924" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://ryazbek.com.br/wp-content/cache/min/1/wp-content/themes/ryazbek/js/theme.js?ver=1731086924" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://ryazbek.com.br/wp-content/cache/min/1/wp-content/themes/ryazbek/styles/rayzbek/js/custom.js?ver=1731086924" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'#'+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W38KGCS');</script>
+<style id="rocket-lazyrender-inline-css">[data-wpr-lazyrender] {content-visibility: auto;}</style><meta name="generator" content="WP Rocket 3.17.2.1" data-wpr-features="wpr_delay_js wpr_defer_js wpr_minify_js wpr_lazyload_iframes wpr_automatic_lazy_rendering wpr_oci wpr_image_dimensions wpr_minify_css wpr_desktop"></head>
+
+<body class="home page-template-default page page-id-10 tm-isblog wp-front_page wp-page wp-page-10 tm-article-blog">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W38KGCS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+        <nav class="tm-navbar" data-uk-sticky="{clsactive: 'uk-active uk-animation-slide-top'}">
+
+        <div class="tm-navbar-container uk-flex uk-flex-space-between uk-visible-large">
+	<div class="uk-flex uk-flex-middle">
+		<div class="via-logo">
+						<a class="tm-logo uk-visible-large" href="https://github.com/jackoffee"><div class="textwidget custom-html-widget"><img src="images/logo.svg" width="50" height="auto" alt="Logo" class="uk-ignore"></div></a>
+					</div>
+				<div class="uk-visible-large">
+			<ul class="uk-navbar-nav uk-hidden-small"><li><a href="#" class="">Sobre nós</a></li><li><a href="#" class="">Quero Comprar</a></li><li><a href="#" class="">Quero Construir</a></li><li><a href="#" class="">Portfólio</a></li><li><a href="#" class="">Blog</a></li><li><a href="#" class="">Contato</a></li></ul>		</div>
+			</div>
+		<div class="uk-flex uk-flex-middle">
+		
+				
+				<div class="uk-margin-left via-search">
+			<div class="uk-visible-large uk-flex uk-flex-middle"><div class="textwidget custom-html-widget"><div class="uk-flex uk-flex-middle">
+	<div class="uk-margin-large-right">
+			<a href="#" class="uk-button" title="Corretores e Imobiliárias" data-text="corretores e imobiliárias →" target="blank" rel="noopener">corretores e imobiliárias →</a>
+	</div>
+</div></div>
+
+<form class="uk-search" id="search-search-2-6730d32371ce3" action="#" method="get" data-uk-search="{'source': 'https://ryazbek.com.br/wp-admin/admin-ajax.php?action=warp_search', 'param': 's', 'msgResultsHeader': 'Resultados da Procura', 'msgMoreResults': 'Mais Resultados', 'msgNoResults': 'Nenhum resultado encontrado', flipDropdown: 1}">
+    <input class="uk-search-field" type="text" value="" name="s" placeholder="procurar...">
+</form>
+</div>
+		</div>
+				
+	</div>
+		
+</div>
+
+<div class="tm-navbar-container uk-flex uk-flex-space-between uk-hidden-large uk-flex-middle">
+	<div class="uk-flex uk-flex-middle">
+				<a href="#offcanvas" class="uk-navbar-toggle uk-hidden-large" data-uk-offcanvas=""></a>
+			</div>
+	<div class="uk-flex uk-flex-middle">
+		<div>
+						<a class="tm-logo-small uk-hidden-large" href="#"><div class="textwidget custom-html-widget"><img src="images/logo-small.svg" width="30" height="30" alt="Logo" class="uk-ignore"></div></a>
+					</div>
+	</div>
+		<div class="uk-flex uk-flex-middle">
+			
+				<div class="via-search">
+			<div class="uk-flex uk-flex-middle"><div class="textwidget custom-html-widget"><div class="uk-flex uk-flex-middle">
+	<div class="uk-margin-large-right">
+			<a href="#" class="uk-button" title="Corretores e Imobiliárias" data-text="corretores e imobiliárias →" target="blank" rel="noopener">corretores e imobiliárias →</a>
+	</div>
+</div></div>
+
+<form class="uk-search" id="search-search-2-6730d323724cb" action="#" method="get" data-uk-search="{'source': 'https://ryazbek.com.br/wp-admin/admin-ajax.php?action=warp_search', 'param': 's', 'msgResultsHeader': 'Resultados da Procura', 'msgMoreResults': 'Mais Resultados', 'msgNoResults': 'Nenhum resultado encontrado', flipDropdown: 1}">
+    <input class="uk-search-field" type="text" value="" name="s" placeholder="procurar...">
+</form>
+</div>
+		</div>
+				
+	</div>
+		
+</div>
+    </nav>
+    
+        <div id="tm-top-a" class="uk-block tm-block-padding-collapse uk-block-default">
+        <div class="">
+            <section class="tm-top-a uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin=""><div class="uk-width-1-1">
+	<div class="uk-panel uk-margin-remove widget_widgetkit">
+<div data-uk-slideshow="{autoplay: true ,autoplayInterval: 25000,pauseOnHover: false,kenburns: '15s'}">
+
+    <div class="uk-position-relative">
+
+        <ul class="uk-slideshow uk-overlay-active">
+        
+            <li style="min-height: 760px;">
+
+                
+                    <img fetchpriority="high" width="1920" height="716" src="images/banner-vila-nova-conceicao.jpg" alt="D.O.C - Vila Nova Conceição">
+                    
+                                        <div class="uk-overlay-panel uk-flex uk-flex-middle uk-overlay-fade">
+
+                                                <div>
+                        
+                        
+                                                <div class=" uk-margin"><div class="uk-contrast">
+<h2 class="uk-heading-large uk-text-uppercase uk-margin-bottom via-text-shadow"><strong class="uk-text-bold">D.O.C<br>Vila Nova<br> Conceição</strong></h2>
+<div>
+<div class="uk-margin-bottom">
+<h3 class="uk-margin-bottom uk-width-medium-7-10">APARTAMENTO RESIDENCIAL</h3>
+<div class="uk-flex uk-flex-middle">
+<div style="min-width: 18px; margin-right: 1.125rem;"><img decoding="async" src="images/icon-cama.svg" width="18" height="auto" alt="Icon Cama"></div>
+<h2 class="uk-h3 uk-margin-remove">3 Vagas</h2>
+</div>
+<div class="uk-flex uk-flex-middle">
+<div class="uk-flex uk-flex-center" style="min-width: 18px; margin-right: 1.125rem;"><img decoding="async" src="images/icon-regua.svg" width="8" height="auto" alt="Icon Régua"></div>
+<h2 class="uk-h3 uk-margin-remove">195m²</h2>
+</div>
+</div>
+<div><a href="/portfolio/doc-vila-nova-conceicao/" class="uk-button" data-text="Confira →">Confira →</a>
+			</div>
+<p></p></div>
+<p></p></div>
+</div>
+                        
+                        
+                                                </div>
+                        
+                    </div>
+                    
+                    
+                
+            </li>
+
+        
+            <li style="min-height: 760px;">
+
+                
+                    <img width="1920" height="760" src="images/banner-spression.jpg" alt="Banner Spression">
+                    
+                                        <div class="uk-overlay-panel uk-flex uk-flex-middle uk-overlay-fade">
+
+                                                <div>
+                        
+                        
+                                                <div class=" uk-margin"><div class="uk-contrast">
+<h2 class="uk-heading-large uk-text-uppercase uk-margin-bottom via-text-shadow"><strong class="uk-text-bold">SPRESSION<br>CONGONHAS</strong></h2>
+<div>
+<div class="uk-margin-bottom">
+<h3 class="uk-margin-bottom uk-width-medium-7-10">APARTAMENTO RESIDENCIAL</h3>
+<div class="uk-flex uk-flex-middle">
+<div style="min-width: 18px; margin-right: 1.125rem;"><img decoding="async" src="images/icon-cama.svg" width="18" height="auto" alt="Icon Cama"></div>
+<h2 class="uk-h3 uk-margin-remove">1 Vaga</h2>
+</div>
+<div class="uk-flex uk-flex-middle">
+<div class="uk-flex uk-flex-center" style="min-width: 18px; margin-right: 1.125rem;"><img decoding="async" src="images/icon-regua.svg" width="8" height="auto" alt="Icon Régua"></div>
+<h2 class="uk-h3 uk-margin-remove">29m²</h2>
+</div>
+</div>
+<div><a href="/portfolio/spression-congonhas/" class="uk-button" data-text="Confira →">Confira →</a>
+			</div>
+<p></p></div>
+<p></p></div>
+</div>
+                        
+                        
+                                                </div>
+                        
+                    </div>
+                    
+                    
+                
+            </li>
+
+        
+            <li style="min-height: 760px;">
+
+                
+                    <img width="1920" height="760" src="images/banner-sintonia.jpg" alt="SINTONIA">
+                    
+                                        <div class="uk-overlay-panel uk-flex uk-flex-middle uk-overlay-fade">
+
+                                                <div>
+                        
+                        
+                                                <div class=" uk-margin"><div class="uk-contrast">
+<h2 class="uk-heading-large uk-text-uppercase uk-margin-bottom via-text-shadow"><strong class="uk-text-bold">SINTONIA<br>IBIRAPUERA</strong></h2>
+<div>
+<div class="uk-margin-bottom">
+<h3 class="uk-margin-bottom uk-width-medium-7-10">CRIAMOS A UNIÃO PERFEITA ENTRE VOCÊ E O PARQUE.<br><strong>MORE A 500M DO PARQUE IBIRAPUERA</strong></h3>
+<p></p></div>
+<div>
+			<a href="/portfolio/sintonia-ibirapuera/" class="uk-button" data-text="Confira →">Confira →</a>
+		</div>
+<p></p></div>
+</div>
+</div>
+                        
+                        
+                                                </div>
+                        
+                    </div>
+                    
+                    
+                
+            </li>
+
+        
+            <li style="min-height: 760px;">
+
+                
+                    <img width="1920" height="760" src="images/img-banner-ibirapuera.jpg" alt="Ibirapuera">
+                    
+                                        <div class="uk-overlay-panel uk-flex uk-flex-middle uk-overlay-fade">
+
+                                                <div>
+                        
+                        
+                                                <div class=" uk-margin"><div class="uk-contrast">
+<h2 class="uk-heading-large uk-text-uppercase uk-margin-bottom via-text-shadow"><strong class="">EXPERIÊNCIA, <br>SOLIDEZ, QUALIDADE <br>E INOVAÇÃO</strong></h2>
+<p>
+
+<div>
+        
+
+<div class="uk-margin-bottom via-text-box">
+            
+
+<div class="uk-flex uk-flex-middle">
+
+<div style="min-width: 18px; margin-right: 1.125rem;"><img decoding="async" src="images/icon-cama.svg" width="18" height="auto" alt="Icon Cama"></div>
+
+
+
+<h2 class="uk-h3 uk-margin-remove">4 Suítes</h2>
+
+</div>
+
+
+
+<div class="uk-flex uk-flex-middle">
+
+<div class="uk-flex uk-flex-center" style="min-width: 18px; margin-right: 1.125rem;"><img decoding="async" src="images/icon-regua.svg" width="8" height="auto" alt="Icon Régua"></div>
+
+
+
+<h2 class="uk-h3 uk-margin-remove">320m²</h2>
+
+</div>
+
+</div>
+
+
+
+<div>
+
+<h3 class="uk-margin-remove">A área VIP que vai conectar <br />sua empresa com todo o Brasil</h3>
+
+
+            </div>
+
+
+        </div>
+
+ 
+    </p></div>
+</div>
+                        
+                        
+                                                </div>
+                        
+                    </div>
+                    
+                    
+                
+            </li>
+
+        
+            <li style="min-height: 760px;">
+
+                
+                    <img width="1920" height="760" src="images/banner-beyond.jpg" alt="BEYOND">
+                    
+                                        <div class="uk-overlay-panel uk-flex uk-flex-middle uk-overlay-fade">
+
+                                                <div>
+                        
+                        
+                                                <div class=" uk-margin"><div class="uk-contrast">
+<h2 class="uk-heading-large uk-text-uppercase uk-margin-bottom via-text-shadow"><strong class="uk-text-bold">BEYOND<br>JARDINS</strong></h2>
+<div>
+<div class="uk-margin-bottom">
+<h3 class="uk-margin-bottom uk-width-medium-7-10">UM RARO LANÇAMENTO NOS JARDINS</h3>
+<div class="uk-flex uk-flex-middle">
+<div style="min-width: 18px; margin-right: 1.125rem;"><img decoding="async" src="images/icon-cama.svg" width="18" height="auto" alt="Icon Cama"></div>
+<h2 class="uk-h3 uk-margin-remove">4 Suítes</h2>
+</div>
+<div class="uk-flex uk-flex-middle">
+<div class="uk-flex uk-flex-center" style="min-width: 18px; margin-right: 1.125rem;"><img decoding="async" src="images/icon-regua.svg" width="8" height="auto" alt="Icon Régua"></div>
+<h2 class="uk-h3 uk-margin-remove">270m²</h2>
+</div>
+</div>
+<div><a href="/portfolio/beyond/" class="uk-button" data-text="Confira →">Confira →</a>
+			</div>
+<p></p></div>
+<p></p></div>
+</div>
+                        
+                        
+                                                </div>
+                        
+                    </div>
+                    
+                    
+                
+            </li>
+
+        
+            <li style="min-height: 760px;">
+
+                
+                    <img width="1920" height="760" src="images/banner-riviera.jpg" alt="Banner Reserva do Golf">
+                    
+                                        <div class="uk-overlay-panel uk-flex uk-flex-middle uk-overlay-fade">
+
+                                                <div>
+                        
+                        
+                                                <div class=" uk-margin"><div class="uk-contrast">
+<h2 class="uk-heading-large uk-text-uppercase uk-margin-bottom via-text-shadow"><strong class="uk-text-bold">Reserva<br>do Golf</strong></h2>
+<div>
+<div class="uk-margin-bottom">
+<h3 class="uk-margin-bottom uk-width-medium-7-10">Riviera de São Lourenço</h3>
+<div class="uk-flex uk-flex-middle">
+<div style="min-width: 18px; margin-right: 1.125rem;"><img decoding="async" src="images/icon-cama.svg" width="18" height="auto" alt="Icon Cama"></div>
+<h2 class="uk-h3 uk-margin-remove">4 Suítes</h2>
+</div>
+<div class="uk-flex uk-flex-middle">
+<div class="uk-flex uk-flex-center" style="min-width: 18px; margin-right: 1.125rem;"><img decoding="async" src="images/icon-regua.svg" width="8" height="auto" alt="Icon Régua"></div>
+<h2 class="uk-h3 uk-margin-remove">493m²</h2>
+</div>
+</div>
+<div><a href="/portfolio/reserva-do-golf/" class="uk-button" data-text="Confira →">Confira →</a>
+		</div>
+<p></p></div>
+</div>
+</div>
+                        
+                        
+                                                </div>
+                        
+                    </div>
+                    
+                    
+                
+            </li>
+
+                </ul>
+
+        
+                <div class="uk-overlay-panel uk-overlay-bottom">
+            
+<ul class="uk-dotnav uk-dotnav-contrast uk-flex-center">
+    <li data-uk-slideshow-item="0"><a href="#">D.O.C - Vila Nova Conceição</a></li>
+    <li data-uk-slideshow-item="1"><a href="#">Banner Spression</a></li>
+    <li data-uk-slideshow-item="2"><a href="#">SINTONIA</a></li>
+    <li data-uk-slideshow-item="3"><a href="#">Ibirapuera</a></li>
+    <li data-uk-slideshow-item="4"><a href="#">BEYOND</a></li>
+    <li data-uk-slideshow-item="5"><a href="#">Banner Reserva do Golf</a></li>
+</ul>
+        </div>
+        
+    </div>
+
+    
+</div>
+</div></div>
+</section>
+        </div>
+    </div>
+    
+        <div id="tm-top-b" class="uk-block uk-block-default">
+        <div class=" tm-container uk-container-center">
+            <section class="tm-top-b uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin=""><div class="uk-width-1-1">
+	<div class="uk-panel widget_codewidget"><div class="code-widget"><div class="uk-grid" data-uk-grid-margin="">
+    <div class="uk-width-large-1-3 uk-text-center-medium">
+        <div class="uk-panel">
+            <h2 class="uk-margin-remove uk-text-bold uk-text-uppercase">encontre o seu</h2>
+        </div>
+    </div>
+    <div class="uk-width-large-2-3">
+        <div class="uk-panel">
+                        <ul id="cadsEmpreendimentos" class="uk-tab via-tab-empreendimentos" data-uk-tab="">
+                <li class="uk-active" data-uk-filter="">
+                    <a href="#" class="uk-text-center uk-text-small uk-text-uppercase uk-text-bold">
+                        <div class="uk-flex uk-flex-middle uk-flex-center" style="min-height: 63px; max-height: 63px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44"><g fill="none" stroke="#000" stroke-width="2"><g data-name="Retângulo 58"><rect width="12" height="12" rx="1" stroke="none"></rect><path d="M1 1h10v10H1z"></path></g><g data-name="Retângulo 63" transform="translate(0 16)"><rect width="12" height="12" rx="1" stroke="none"></rect><path d="M1 1h10v10H1z"></path></g><g data-name="Retângulo 66" transform="translate(0 32)"><rect width="12" height="12" rx="1" stroke="none"></rect><path d="M1 1h10v10H1z"></path></g><g data-name="Retângulo 59" transform="translate(16)"><rect width="12" height="12" rx="1" stroke="none"></rect><path d="M1 1h10v10H1z"></path></g><g data-name="Retângulo 62" transform="translate(16 16)"><rect width="12" height="12" rx="1" stroke="none"></rect><path d="M1 1h10v10H1z"></path></g><g data-name="Retângulo 65" transform="translate(16 32)"><rect width="12" height="12" rx="1" stroke="none"></rect><path d="M1 1h10v10H1z"></path></g><g data-name="Retângulo 60" transform="translate(32)"><rect width="12" height="12" rx="1" stroke="none"></rect><path d="M1 1h10v10H1z"></path></g><g data-name="Retângulo 61" transform="translate(32 16)"><rect width="12" height="12" rx="1" stroke="none"></rect><path d="M1 1h10v10H1z"></path></g><g data-name="Retângulo 64" transform="translate(32 32)"><rect width="12" height="12" rx="1" stroke="none"></rect><path d="M1 1h10v10H1z"></path></g></g></svg>
+                        </div>
+                        <div class="uk-margin">Destaque</div>
+                    </a>
+                </li>
+                <li data-uk-filter="Lançamentos">
+                        <a href="#" class="uk-text-center uk-text-small uk-text-uppercase uk-text-bold">
+                            <div class="uk-flex uk-flex-middle uk-flex-center" style="min-height: 63px; max-height: 63px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="via-empreendimento-lancamento" width="51" height="44.905"><path data-name="Caminho 40" d="M23.569 38.908l.256-.3c-.428-.29-.881-.59-1.368-.9l-.08-.056c-.529-.416-.866-.675-1.21-.94-3.958-3.052-9-6.942-9.693-12.075a11.307 11.307 0 0 1 .139-3.844 9.393 9.393 0 0 1 2.189-4.4 7.061 7.061 0 0 1 4.319-2.282 8.342 8.342 0 0 1 4.921.9 13.409 13.409 0 0 1 1.776 1.156l.036.032c.762.628 1.275.245 2.08-.357l.526-.388a7.774 7.774 0 0 1 2.679-1.24 7.682 7.682 0 0 1 4.444.237 7.8 7.8 0 0 1 3.69 2.816 9.2 9.2 0 0 1 1.443 3.192c.939 3.827-.431 7.163-2.7 10.028a40.4 40.4 0 0 1-7.638 6.876l-.824.611-1.222-1.648.824-.611a38.735 38.735 0 0 0 7.253-6.5c1.909-2.412 3.073-5.177 2.314-8.268a7.158 7.158 0 0 0-1.114-2.486 5.766 5.766 0 0 0-2.723-2.07 5.625 5.625 0 0 0-3.254-.173 5.727 5.727 0 0 0-1.973.91l-.5.365c-1.582 1.182-2.594 1.937-4.575.323a11.9 11.9 0 0 0-1.5-.985 6.314 6.314 0 0 0-3.691-.687 5.049 5.049 0 0 0-3.081 1.639 7.331 7.331 0 0 0-1.691 3.434 9.247 9.247 0 0 0-.115 3.145c.578 4.3 5.249 7.9 8.913 10.725l1.192.923a104.3 104.3 0 0 1 2.856 1.932c3.112 2.157 5.429 3.763 10.337 4.7.336.063.71.118 1.1.156a10.094 10.094 0 0 0 3.794-.28 2.492 2.492 0 0 0 1.926-1.811c.017-.087.029-.166.035-.234l.008-.072c.359-2.119.286-7.379.228-11.639-.04-2.95-.074-5.432.052-6.234a4.149 4.149 0 0 1 .5-1.644 2.432 2.432 0 0 1 1.818-1.106l.692-.111c1.326-.211 1.837-.293 1.971-1.14.165-1.068-1.464-2.08-2.8-2.912a5.893 5.893 0 0 1-2.3-1.952c-.695-1.442-.692-3.882-.69-6.011 0-1.555.044-2.878.024-2.891a7.955 7.955 0 0 0-2.041-.146 14.769 14.769 0 0 0-2.829.227c-.119.17.132.79.067 1.357-.035.307-.066.571-.1.759l-.1.517-.478.222c-1.79.831-5.312-1.8-6.933-3.018l-.413-.309c-.24-.175-.52-.395-.8-.615-1.33-1.043-2.7-2.114-4.943-1.475-1.193.339-4.511 2.378-8.226 4.843-5.38 3.571-11.513 8-13.385 9.552a2.447 2.447 0 0 0-.893 1.185.934.934 0 0 0 .09.679 2.045 2.045 0 0 0 .7.7 3.16 3.16 0 0 0 1.9.521c2.157-.169 2.349 1.131 2.578 2.708l.052.341a52.116 52.116 0 0 1 .044 6.419c-.117 4.885-.264 10.97.585 12.334a1.748 1.748 0 0 0 .34.4c1.19 1.029 3.777 1.029 6.504.529a23.812 23.812 0 0 0 7.592-2.724 4.991 4.991 0 0 0 1.1-.861zm1.956.874l-.4.468a6.933 6.933 0 0 1-1.564 1.263 26.015 26.015 0 0 1-8.307 3c-3.27.6-6.487.5-8.217-1a3.789 3.789 0 0 1-.743-.863c-1.169-1.877-1.015-8.306-.891-13.467a53.4 53.4 0 0 0-.021-6.066 4.854 4.854 0 0 1-.055-.353c-.077-.533-.142-.973-.395-.953a5.288 5.288 0 0 1-3.182-.85 4.076 4.076 0 0 1-1.38-1.46 2.936 2.936 0 0 1-.277-2.145 4.4 4.4 0 0 1 1.576-2.27c1.9-1.577 8.118-6.068 13.561-9.68C19.093 2.841 22.609.7 24.033.296c3.243-.921 5.025.476 6.76 1.837.235.184.47.369.752.575l.43.317a21.388 21.388 0 0 0 4.363 2.772c.124-1.058.321-2.462 1.093-2.842l.086-.042.1-.026a15.41 15.41 0 0 1 3.511-.343 7.548 7.548 0 0 1 3.118.459c.952.59.951 2.468.949 4.635 0 1.908 0 4.094.489 5.119a6.472 6.472 0 0 0 1.534 1.1c1.862 1.157 4.125 2.563 3.744 4.974-.367 2.317-1.287 2.464-3.675 2.844l-.675.111c-.259.044-.377.1-.419.165a2.957 2.957 0 0 0-.21.873c-.1.635-.067 3.04-.028 5.9.06 4.344.133 9.707-.25 11.989a4.356 4.356 0 0 1-.053.367 4.412 4.412 0 0 1-3.332 3.39 12.138 12.138 0 0 1-4.6.36 13.98 13.98 0 0 1-1.287-.18c-5.22-.992-7.7-2.651-10.9-4.874z"></path></svg>
+                            </div>
+                            <div class="uk-margin">Lançamentos</div>
+                        </a>
+                    </li><li data-uk-filter="Construção">
+                        <a href="#" class="uk-text-center uk-text-small uk-text-uppercase uk-text-bold">
+                            <div class="uk-flex uk-flex-middle uk-flex-center" style="min-height: 63px; max-height: 63px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="via-empreendimento-construcao" width="51" height="51"><path data-name="Construção" d="M19.922 43.23v6.176H4.084a2.053 2.053 0 0 1-2.07-1.416l-.325-3.162c-.039-3.508-.41-6.324 3.006-8.855a13.44 13.44 0 0 1 3.386-1.893 11.109 11.109 0 0 1 2.776-.81c.145.623.418 1.2.635 1.855.733 2.2.727 1.564 2.154 1.532-.384 1.648-.822 1.065 2.518 3.558l3.348 2.529c.186.134.409.2.409.487zm23.906-19.324h1.2c.1.436.455.694.455 1s-.353.561-.455 1h-1.2c-.1-.436-.455-.694-.455-1s.353-.565.455-1zm-1 3.586h3.187c.152-.652 1.35-2.179 1.35-2.59s-1.2-1.938-1.35-2.59h-3.183c-.152.652-1.35 2.178-1.35 2.59 0 .354 1.23 2.076 1.35 2.588zm-.3 10.26a6.733 6.733 0 0 1 1.3 3.983c0 .572-.081.737-.106 1.2-.022.419.017.876 0 1.3-.023.774-.191 1.676-.2 2.488-.026 1.916-.58 2.7-2.589 2.69-1.759-.011-3.521 0-5.28 0-.15.644-.66 1-.8 1.594h6.592a3.439 3.439 0 0 0 3.364-2.017 16.22 16.22 0 0 0 .51-4.272l.1-2.288a8.108 8.108 0 0 0-.662-4.119 6.306 6.306 0 0 0-1.329-2.057 6.617 6.617 0 0 0-.9 1.494zm.5-7.67L33.09 47.234c-.25.417-.446.774-.7 1.2-.231.387-.443.976-1.016.976a8.427 8.427 0 0 1-1.574-.82c-.723-.634.323-1.974 1.019-3.122.173-.285.27-.487.435-.76l3.984-6.873c.615-1.025 1.14-1.98 1.755-3.026l2.642-4.529c.1-.173.843-1.448.861-1.532.067-.313-.414-.852-.759-1.549-2.447-4.949 4.115-9.937 8.3-5.607a5.214 5.214 0 0 1 1.3 3.942 4.916 4.916 0 0 1-1.9 3.486c-1.42 1.054-2.04 1.066-4.412 1.066zM51 24.424v1.406a6.372 6.372 0 0 1-.728 2.326 6.7 6.7 0 0 1-6.343 3.617c-1.156 2.185-4.588 8.041-5.8 10.042L33.77 49.31a3.478 3.478 0 0 1-.827 1.165 2.267 2.267 0 0 1-1.242.523h-.423a5 5 0 0 1-2.238-.953 2.421 2.421 0 0 1-1.152-2.335 2.236 2.236 0 0 1 .366-1.128l8.157-14.055c.4-.661.7-1.225 1.1-1.892.128-.216 1.079-1.828 1.089-1.883.084-.512-1.243-1.322-.94-4.642a6.646 6.646 0 0 1 3.8-5.169 6.328 6.328 0 0 1 3.27-.615c3.164 0 5.922 2.836 6.275 6.1zM5.578 50.999H4a3.437 3.437 0 0 1-3.25-1.751 3.4 3.4 0 0 1-.474-1.718A35.99 35.99 0 0 1 0 43.545v-.346c0-2.959.055-4.47 2.034-7a10.811 10.811 0 0 1 1.977-1.809 12.954 12.954 0 0 1 1.163-.729c.4-.244.766-.426 1.233-.66 2.567-1.284 4.451-1.336 5.76-1.81a6.626 6.626 0 0 0 3.533-3.144l.341-.555c-.25-.373-.537-.652-.8-.994a20.773 20.773 0 0 1-3.783-8.468c-.784 0-1.494-.128-1.494-.9a12.84 12.84 0 0 1 .4-3.785c.606-.141.946.083 1.006-.488a13.646 13.646 0 0 1 .504-3.667 12.519 12.519 0 0 1 3.166-5.2l1.128-.964C16.844 2.49 17.5 0 19.424 0H26c1.919 0 2.58 2.491 3.255 3.02a9.28 9.28 0 0 1 1.8 1.685 9.344 9.344 0 0 1 .635.759 10.9 10.9 0 0 1 1.858 3.726 13.688 13.688 0 0 1 .509 3.674c.048.452-.073.292.577.42.551.109.409.1.537.359a1.815 1.815 0 0 1 .124.474l.167 2.024c.079 1.458.065 1.893-1.594 1.893a23.27 23.27 0 0 1-3.148 7.013l-1.12 1.469c-.379.426-.625.472.578 2.171a6.367 6.367 0 0 0 4.781 2.889l-2.7 4.669c-.249.433-.079.4-.585.411.157.329.151.324-.032.657l-.961 1.637a66.575 66.575 0 0 1-5.981 4.48v5.977c1.889 0 1.6-.126 1.843.349A6.964 6.964 0 0 0 27.39 51H5.578zm26.6-15.937c-.175-.084-2.49-.914-2.49.5 0 .678.442 1.222.5 1.892a7.7 7.7 0 0 0-1.352.939l-1.366 1.024-2.77 2.019c0-4.718-.618-3.271 2.169-5.7l2.144-1.84c.373-.316.744-.571 1.091-.9l1.071-.921c.671.156 1.027.634 1.793.7a18.573 18.573 0 0 1-.794 2.287zM12.451 32.87c.567-.3.9-.251 1.295-.6l5.961 5.1c.35.35.215.874.215 1.678v1.892a7.785 7.785 0 0 1-1.164-.828c-.417-.341-.746-.58-1.184-.908a27.25 27.25 0 0 1-2.334-1.85c0-.635.5-1.388.5-1.793 0-1.322-2.248-.614-2.49-.5-.322-.671-.488-1.548-.8-2.192zm10.658 4.283v12.253h-1.593V37.153c0-.522-.787-1.078-1.409-1.579l-3.247-2.829c-.3-.279-.519-.419-.8-.7-.322-.32-.594-.432-.822-.772.248-.37 1.781-1.784 1.992-2.69.4.092.8.5 1.55.84 5.316 2.4 8.281-.8 9.306-1.039a14.814 14.814 0 0 0 1.793 2.59l-5.2 4.46c-.715.623-1.572 1.14-1.572 1.716zm-9.861-18.925c.519.121 2.194 1.072 2.656 1.228.237.08 12.536.173 13.373.058l2.8-1.286c-.69 2.961-3.115 7.217-5.7 9.137-3.423 2.538-7.752 1.126-10.075-2.223a17.3 17.3 0 0 1-1.823-3.158 13.781 13.781 0 0 1-1.224-3.756zm0 0zm8.267-7.072a1.2 1.2 0 0 1 2.391 0 1.2 1.2 0 0 1-2.391 0zm-1.594-.1a2.751 2.751 0 0 0 2.49 2.889h.6a2.751 2.751 0 0 0 2.49-2.889 2.726 2.726 0 0 0-1.992-2.59V4.781c.83 0 1.679.064 2.163-1.025A12.864 12.864 0 0 0 26.1 1.69a2.8 2.8 0 0 1 1.018 1.074c.465.735.267.918.785 1.307A12.274 12.274 0 0 1 30.1 6.06a10.141 10.141 0 0 1 2.275 7.088c-1.463 0-2.49-.268-2.49.8a.749.749 0 0 0 .8.8h2.988l.1 1.693c-2.412 0-1.552-.089-4.151 1.128a2.3 2.3 0 0 1-.93.366H16.734c-.51 0-3.013-1.494-3.486-1.494h-1.594l.1-1.693 3.264-.023a.81.81 0 0 0-.276-1.571h-1.694a10.2 10.2 0 0 1 3.51-8.344c.661-.615 1.122-.63 1.389-1.3a4.455 4.455 0 0 1 1.079-1.633c.374-.272.363-.06.43.483a6.462 6.462 0 0 0 .209 1.189c.44 1.27 1.311 1.237 2.248 1.237v3.679a2.727 2.727 0 0 0-1.992 2.59zm1.1-9.463H24.4a5.924 5.924 0 0 1-.124.872c-.143.93.2.722-2.764.722-.448 0-.488-1.244-.5-1.594z" fill-rule="evenodd"></path></svg>
+                            </div>
+                            <div class="uk-margin">Construção</div>
+                        </a>
+                    </li><li data-uk-filter="Prontos">
+                        <a href="#" class="uk-text-center uk-text-small uk-text-uppercase uk-text-bold">
+                            <div class="uk-flex uk-flex-middle uk-flex-center" style="min-height: 63px; max-height: 63px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="via-empreendimento-prontos" width="51.361" height="63"><path data-name="Prontos" d="M15.675 22.243a1.936 1.936 0 0 0-1.081 1.717c.186-.034.363-.08.54-.126a4.731 4.731 0 0 1 1.25-.2.688.688 0 0 1 .6.348.676.676 0 0 1 .083.413.833.833 0 0 1-.183.424 2.475 2.475 0 0 1-1.6.712 1.49 1.49 0 0 0 .488.239 2.339 2.339 0 0 0 .915.079 2.08 2.08 0 0 0 .9-.308 1.84 1.84 0 0 0 .81-1.529 1.754 1.754 0 0 0-1.039-1.722 2.149 2.149 0 0 0-.845-.2 1.9 1.9 0 0 0-.839.157zm-5.542 1.547a14.962 14.962 0 0 0 2.808.333 2.67 2.67 0 0 1-.011-.252 3.324 3.324 0 0 1 .844-2.135 3.828 3.828 0 0 1 2-1.234 3.239 3.239 0 0 1 .737-.087 3.431 3.431 0 0 1 2.547 1.111 3.675 3.675 0 0 1 .975 2.47 3.463 3.463 0 0 1-1.149 2.571 3.629 3.629 0 0 1-1.535.877 3.3 3.3 0 0 1-1.972-.1 3.725 3.725 0 0 1-1.459-.952 2.484 2.484 0 0 1-.463-.685c-.638 0-1.162-.008-1.677-.04a11.656 11.656 0 0 1-1.735-.242 12.788 12.788 0 0 1-1.5-.432 11.888 11.888 0 0 1-1.042-.417 7.588 7.588 0 0 0-.3 3.8 10.155 10.155 0 0 0 1.658 4.372 10.04 10.04 0 0 0 1.157 1.321 9.2 9.2 0 0 0 1.384 1.068c.893.572.888.753.849 2.143-.008.252-.016.552-.019.954h.05a2.366 2.366 0 0 1 .6.034 1.8 1.8 0 0 1 .589.315l.241.163v5.26a.692.692 0 0 1 .419.369 2.107 2.107 0 0 0 .122.178 5.34 5.34 0 0 0 .677.669c.459.4.886.781.886 1.23a2.154 2.154 0 0 1-.668 1.029 15.235 15.235 0 0 1-1.2 1.126 7.838 7.838 0 0 0 .616.6A3.516 3.516 0 0 1 15.8 50.84l.029.124-.072.108a8.023 8.023 0 0 1-.884.928 6.829 6.829 0 0 0-1.167 1.258v4.7c0 .131.213.318.4.475.084.073.163.142.236.218l2.078 2.248a20.857 20.857 0 0 0 1.541-1.509c.221-.231.423-.443.6-.616.127-.127.24-.223.338-.308a1 1 0 0 0 .417-.989v-.534a6.778 6.778 0 0 1 .127-1.77l.034-.183.181-.041a6.252 6.252 0 0 1 1.821-.142l.423.008v-2.247l-.3.011c-.237.009-.477.019-.663.019-.882 0-1.631-.147-1.631-.95 0-.383 0-.614-.006-.807-.015-.908-.021-1.351.286-1.629.286-.259.718-.249 1.56-.227.208.005.444.011.757.014v-.392c-.282 0-.511.01-.714.016-.244.008-.457.014-.587.014-.954 0-1.3-.158-1.3-1.072V39.15c0-.839.846-.919 1.467-.919h.016l-.009-1.041a5.847 5.847 0 0 1 .054-1.354c.092-.326.246-.41.554-.576a5.165 5.165 0 0 0 .452-.267 9.041 9.041 0 0 0 3.8-5.639 9.684 9.684 0 0 0-1.083-6.885l-.95-1.354a9.728 9.728 0 0 0-6.1-3.143 9.015 9.015 0 0 0-6.479 1.651 9.21 9.21 0 0 0-1.782 1.667 11.78 11.78 0 0 0-1.13 1.794 7.6 7.6 0 0 0 2.017.709zM.375 16.266A16.66 16.66 0 0 1 0 12.299a10.6 10.6 0 0 1 .333-2.538 12.43 12.43 0 0 1 .936-2.545A13.126 13.126 0 0 1 6.1 1.89 13.119 13.119 0 0 1 13.043 0a11.62 11.62 0 0 1 4.727 1.043 14.643 14.643 0 0 1 4.3 2.97 12.188 12.188 0 0 1 1.515 1.906 11.021 11.021 0 0 1 1.1 2.086 17.85 17.85 0 0 1 .86 3.077 6.045 6.045 0 0 1 .035 2.276l-.041.18-.344.082a2.953 2.953 0 0 1-.51.093c-.589.024-.64-.266-.685-1.395a10.98 10.98 0 0 0-.235-1.741 12.043 12.043 0 0 0-.5-1.744 10.862 10.862 0 0 0-2.139-3.437 11.275 11.275 0 0 0-3.269-2.48 10.435 10.435 0 0 0-2.79-1.026 16.29 16.29 0 0 0-3.014-.18 9.611 9.611 0 0 0-5.385 1.78 12.171 12.171 0 0 0-4.042 4.687 10.727 10.727 0 0 0-.972 6 11.546 11.546 0 0 0 2.446 5.75 14.752 14.752 0 0 0 1.66 1.712 5.226 5.226 0 0 0 .914.663 5.729 5.729 0 0 1 .426-.793 14.009 14.009 0 0 1 1.048-1.445 10.633 10.633 0 0 1 4.84-3.256 11.184 11.184 0 0 1 5.536-.35l.162.031a.725.725 0 0 1-.252-.6.769.769 0 0 1 .5-.744 2.486 2.486 0 0 1 .757-.166 11.755 11.755 0 0 1 1.981-.094 12.116 12.116 0 0 1 2.152.393 10.146 10.146 0 0 1 2.155.8 11.188 11.188 0 0 1 1.987 1.292 11.054 11.054 0 0 1 4.051 8.383l.537.346.685.416c1.729 1.027 1.585 1.223 1.18 1.779a1.413 1.413 0 0 0-.264.517 4.606 4.606 0 0 1 .726.446c.137.1.274.192.416.275l13.978 8.677c.733.431.754.517.968 1.408l.822 3.3.082.291a2.5 2.5 0 0 1 .153 1.38l-.056.148c-.073.2-.107.294-.305.387a2.286 2.286 0 0 1-.522.123l-.6.109-2.969.618c-.259.051-.475.1-.653.146a1.709 1.709 0 0 1-1.162.034 7.4 7.4 0 0 1-1.23-.724c-.5-.326-1.189-.778-2.155-1.37l-.919-.569a2.861 2.861 0 0 1-.993-2.138c-.058-.37-.075-.662-.089-.662a4.743 4.743 0 0 0-1.028.207c-.738.2-1.513.405-1.955.065a6.5 6.5 0 0 1-.811-2.457l-.031-.151a6.606 6.606 0 0 0-.977.216 5.705 5.705 0 0 1-1.51.264 8.8 8.8 0 0 1-1.558-.909c-.867-.556-1.916-1.228-2.389-1.48-.2.39-.517.9-1 .9a9.776 9.776 0 0 1-2.268-1.2c-.62-.422-1.12-.875-1.12-1.197 0-.591.287-.8.689-.8a3.349 3.349 0 0 1 1.494.67l.084.056.274.169c.2.123.363.225.559.336a2.223 2.223 0 0 1 .261-.48.821.821 0 0 1 .649-.379 7.761 7.761 0 0 1 2.89 1.532 7.37 7.37 0 0 0 1.808 1.071 4.883 4.883 0 0 0 1.244-.28 5.786 5.786 0 0 1 1.6-.339c.351 0 .618.438.811 1.017a12.69 12.69 0 0 1 .428 1.858c.306-.087.741-.193 1.167-.286a9.783 9.783 0 0 1 1.43-.237c.528 0 .764 1.13.968 2.113a6.066 6.066 0 0 0 .281 1.108 2.515 2.515 0 0 0 .771.52c.118.063.231.123.32.176l2.516 1.572c.449.267 1.24.067 2.14-.163.241-.062.492-.126.787-.191l.249-.056c.358-.082.762-.174 1.129-.221l-.309-1.3-.4-1.654a8.13 8.13 0 0 1-.093-.424c-.077-.388-.118-.59-.467-.806l-15.045-9.331c-1.224-.738-1.23-1.125-.96-1.573.041-.068.087-.129.133-.193a1.52 1.52 0 0 0 .208-.348 2.857 2.857 0 0 1-.468-.281c-.083-.058-.172-.121-.286-.188l-.36-.211c-.865-.5-1.147-.665-1.157-1.533a9.105 9.105 0 0 0-.745-3.782 10.6 10.6 0 0 0-2.262-3.052 8.087 8.087 0 0 0-3.355-2.01 10.3 10.3 0 0 0-4.257-.355l-.22.019a10.951 10.951 0 0 1 4.094 2.17 11.231 11.231 0 0 1 3.411 5.149 10.743 10.743 0 0 1-.212 7.084 10.382 10.382 0 0 1-4.299 5.389l.005.528a11.743 11.743 0 0 1-.138 2.581l-.049.208-1.3.119v7.1c.274-.005.507-.014.718-.021.252-.01.476-.019.631-.019.732 0 1.125.127 1.125.712 0 .552.015.953.026 1.275.029.777.043 1.167-.2 1.426s-.634.251-1.4.222c-.242-.009-.532-.02-.9-.024v.266l.471-.015c.242-.009.472-.019.64-.019.807 0 1.363.137 1.363.83 0 .972.02 1.686.035 2.258a5.124 5.124 0 0 1-.153 2.178c-.27.5-.733.486-1.71.457-.183-.005-.388-.011-.646-.014l.008.594a3.419 3.419 0 0 1-.158 1.548 4.332 4.332 0 0 1-1.012 1.16c-.244.232-.544.518-.935.911-.265.264-.511.549-.743.82a3.707 3.707 0 0 1-1.72 1.395l-.159.038c-.882-.877-2.626-2.409-3.308-3.29a5.065 5.065 0 0 0-.279-.31c-.318-.338-.7-.747-.7-1.057v-5.2c0-.674.658-1.284 1.243-1.828.2-.187.393-.365.532-.522a6.526 6.526 0 0 0-.56-.5C12.632 49.812 12 49.29 12 48.566c0-.377.645-1 1.214-1.549.218-.211.424-.409.56-.559a8.095 8.095 0 0 0-.531-.52C12.658 45.396 12 44.79 12 44.113v-4.159c-.81 0-1.182-.034-1.393-.508a4.516 4.516 0 0 1-.11-1.673c.008-.328.016-.718.019-1.248a7.213 7.213 0 0 1-1.783-1.435l-.139-.138A9.894 9.894 0 0 1 7 32.846a12.026 12.026 0 0 1-1.105-2.576 9.316 9.316 0 0 1-.056-5.635c.08-.309.154-.591.2-.855a4.984 4.984 0 0 1-1.371-.952c-.114-.1-.223-.2-.329-.281A9 9 0 0 1 3.04 21.29a16.99 16.99 0 0 1-1.06-1.464 10.781 10.781 0 0 1-1.607-3.548zm35.413 17.767c-.782-.449-2.5-1.436-2.5-2.059a.774.774 0 0 1 .792-.792 16.574 16.574 0 0 1 2.612 1.442 500.6 500.6 0 0 1 6.234 3.9c.128.083.339.2.587.348.9.521 2.25 1.3 2.25 1.783a1.087 1.087 0 0 1-.144.591.713.713 0 0 1-.649.325 23.791 23.791 0 0 1-3.47-1.991c-.478-.3-.879-.554-1.1-.685s-.472-.282-.733-.444-.495-.31-.728-.463c-.473-.313-.949-.615-1.436-.916s-.959-.589-1.45-.884l-.265-.153zm-22.88.057a1.12 1.12 0 0 1-.608.167 2.178 2.178 0 0 1-1.052-.638c-.344-.308-.67-.644-.8-.782A9.377 9.377 0 0 1 8.44 29.02a5.44 5.44 0 0 1-.212-1.5 1.2 1.2 0 0 1 .452-1.047.765.765 0 0 1 .408-.112c.7 0 .743.39.831 1.219.03.281.068.63.151 1.054a7.537 7.537 0 0 0 .27 1.007 4.968 4.968 0 0 0 .37.829 5.535 5.535 0 0 0 .516.762 9.26 9.26 0 0 0 .64.694l.031.031a4.336 4.336 0 0 0 .66.576 1.783 1.783 0 0 1 .614.7.707.707 0 0 1 .028.5.7.7 0 0 1-.285.359z" fill-rule="evenodd"></path></svg>
+                            </div>
+                            <div class="uk-margin">Prontos</div>
+                        </a>
+                    </li>            </ul>
+        </div>
+    </div>
+</div>
+<div class="uk-grid uk-grid-width-large-1-3 uk-grid-width-medium-1-2 via-cards-empreendimento" data-via-grid-match=".uk-panel-box" data-uk-grid="{gutter: '40 40',controls: '#cadsEmpreendimentos'}">
+    <div data-uk-filter="Lançamentos">
+                            <div class="uk-panel uk-overlay-hover via-cards-empreendimentos">
+                                <div class="uk-overlay">
+                                    <div class="uk-overlay-scale" style="background: url(images/img-card-bosque_vila_nova.jpg) no-repeat; width: 767px; max-width: 100%; background-size: cover; background-position: center; height: 336px;"></div>
+                                </div><div class="uk-panel-box">
+                                    <p class="uk-margin-remove uk-text-bold uk-text-uppercase">Bosque Vila Nova</p><div class="uk-flex uk-flex-middle uk-margin-top">                                   
+                                            <div style="min-width: 18px; margin-right: 0.5333rem; margin-top: -4px;"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="14.82"><g fill="none" stroke="#bcbcbc" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path data-name="Caminho 41" d="M16 6.301H3.206A2.6 2.6 0 0 0 .5 8.772v3.713c0 .171.267.385.437.385h17.328c.171 0 .235-.214.235-.385V8.772A2.426 2.426 0 0 0 16 6.301z"></path><path data-name="Caminho 42" d="M18.5 9.681a.309.309 0 0 0-.309-.309H.809a.309.309 0 0 0-.309.309v2.879a.309.309 0 0 0 .309.309h17.382a.309.309 0 0 0 .309-.309z"></path><path data-name="Caminho 43" d="M16.965 5.363V.727c0-.171-.076-.227-.247-.227H2.485c-.171 0-.364.056-.364.227v4.636"></path><path data-name="Linha 10" d="M.5 11.249v3.071"></path><path data-name="Linha 11" d="M18.5 11.249v3.071"></path><path data-name="Caminho 44" d="M13.769 5.355a9.133 9.133 0 0 1 .164-1.574.258.258 0 0 0-.247-.26 8.686 8.686 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.247.245 8.8 8.8 0 0 1 .164 1.6"></path><path data-name="Caminho 45" d="M8.719 5.355a9.138 9.138 0 0 1 .164-1.574.258.258 0 0 0-.246-.26 8.688 8.688 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.246.245 8.812 8.812 0 0 1 .164 1.6"></path></g></svg></div>
+                                                <p class="uk-text-small uk-margin-remove uk-text-bold uk-text-uppercase">3 a 4 suítes</p>
+                                            </div><div class="uk-flex uk-flex-middle uk-margin-small-top">
+                                                <div class="uk-flex uk-flex-center" style="min-width: 18px; margin-right: 0.5333rem;">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="9" height="21"><g data-name="263-Ruler" fill="none" stroke="#bcbcbc" stroke-linejoin="round"><path data-name="Retângulo 19" d="M.5.5h8v20h-8z"></path><path data-name="Linha 12" d="M.5 10.5h4"></path><path data-name="Linha 13" d="M.5 5.167h4"></path><path data-name="Linha 14" d="M.5 15.834h4"></path></g></svg>
+                                                </div>
+                                                <p class="uk-text-small uk-margin-remove uk-text-bold">194 a 237 m²</p>
+                                            </div><a href="#" class="uk-button-link" alt="Confira" data-text="Confira">→</a>
+                                    </div>
+                                    <a class="uk-position-cover uk-position-z-index" href="#" title="Bosque Vila Nova"></a>
+                                </div>
+                            </div><div data-uk-filter="Lançamentos">
+                            <div class="uk-panel uk-overlay-hover via-cards-empreendimentos">
+                                <div class="uk-overlay">
+                                    <div class="uk-overlay-scale" style="background: url(images/card-artesano.jpg) no-repeat; width: 767px; max-width: 100%; background-size: cover; background-position: center; height: 336px;"></div>
+                                </div><div class="uk-panel-box">
+                                    <p class="uk-margin-remove uk-text-bold uk-text-uppercase">Artesano Oscar Porto</p><div class="uk-flex uk-flex-middle uk-margin-top">                                   
+                                            <div style="min-width: 18px; margin-right: 0.5333rem; margin-top: -4px;"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="14.82"><g fill="none" stroke="#bcbcbc" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path data-name="Caminho 41" d="M16 6.301H3.206A2.6 2.6 0 0 0 .5 8.772v3.713c0 .171.267.385.437.385h17.328c.171 0 .235-.214.235-.385V8.772A2.426 2.426 0 0 0 16 6.301z"></path><path data-name="Caminho 42" d="M18.5 9.681a.309.309 0 0 0-.309-.309H.809a.309.309 0 0 0-.309.309v2.879a.309.309 0 0 0 .309.309h17.382a.309.309 0 0 0 .309-.309z"></path><path data-name="Caminho 43" d="M16.965 5.363V.727c0-.171-.076-.227-.247-.227H2.485c-.171 0-.364.056-.364.227v4.636"></path><path data-name="Linha 10" d="M.5 11.249v3.071"></path><path data-name="Linha 11" d="M18.5 11.249v3.071"></path><path data-name="Caminho 44" d="M13.769 5.355a9.133 9.133 0 0 1 .164-1.574.258.258 0 0 0-.247-.26 8.686 8.686 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.247.245 8.8 8.8 0 0 1 .164 1.6"></path><path data-name="Caminho 45" d="M8.719 5.355a9.138 9.138 0 0 1 .164-1.574.258.258 0 0 0-.246-.26 8.688 8.688 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.246.245 8.812 8.812 0 0 1 .164 1.6"></path></g></svg></div>
+                                                <p class="uk-text-small uk-margin-remove uk-text-bold uk-text-uppercase">3 suítes</p>
+                                            </div><div class="uk-flex uk-flex-middle uk-margin-small-top">
+                                                <div class="uk-flex uk-flex-center" style="min-width: 18px; margin-right: 0.5333rem;">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="9" height="21"><g data-name="263-Ruler" fill="none" stroke="#bcbcbc" stroke-linejoin="round"><path data-name="Retângulo 19" d="M.5.5h8v20h-8z"></path><path data-name="Linha 12" d="M.5 10.5h4"></path><path data-name="Linha 13" d="M.5 5.167h4"></path><path data-name="Linha 14" d="M.5 15.834h4"></path></g></svg>
+                                                </div>
+                                                <p class="uk-text-small uk-margin-remove uk-text-bold">181 m² e 316 m²</p>
+                                            </div><a href="#" class="uk-button-link" alt="Confira" data-text="Confira">→</a>
+                                    </div>
+                                    <a class="uk-position-cover uk-position-z-index" href="#" title="Artesano Oscar Porto"></a>
+                                </div>
+                            </div><div data-uk-filter="Construção">
+                                <div class="uk-panel uk-overlay-hover via-cards-empreendimentos">
+                                    <div class="uk-overlay">
+                                        <div class="uk-overlay-scale" style="background: url(images/card-vila-nova-conceicao2.png) no-repeat; width: 767px; max-width: 100%; background-size: cover; background-position: center; height: 336px;"></div>
+                                    </div><div class="uk-panel-box">
+                                        <p class="uk-margin-remove uk-text-bold uk-text-uppercase">D.O.C – Vila Nova Conceição</p><div class="uk-flex uk-flex-middle uk-margin-top">                                   
+                                                <div style="min-width: 18px; margin-right: 0.5333rem; margin-top: -4px;"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="14.82"><g fill="none" stroke="#bcbcbc" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path data-name="Caminho 41" d="M16 6.301H3.206A2.6 2.6 0 0 0 .5 8.772v3.713c0 .171.267.385.437.385h17.328c.171 0 .235-.214.235-.385V8.772A2.426 2.426 0 0 0 16 6.301z"></path><path data-name="Caminho 42" d="M18.5 9.681a.309.309 0 0 0-.309-.309H.809a.309.309 0 0 0-.309.309v2.879a.309.309 0 0 0 .309.309h17.382a.309.309 0 0 0 .309-.309z"></path><path data-name="Caminho 43" d="M16.965 5.363V.727c0-.171-.076-.227-.247-.227H2.485c-.171 0-.364.056-.364.227v4.636"></path><path data-name="Linha 10" d="M.5 11.249v3.071"></path><path data-name="Linha 11" d="M18.5 11.249v3.071"></path><path data-name="Caminho 44" d="M13.769 5.355a9.133 9.133 0 0 1 .164-1.574.258.258 0 0 0-.247-.26 8.686 8.686 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.247.245 8.8 8.8 0 0 1 .164 1.6"></path><path data-name="Caminho 45" d="M8.719 5.355a9.138 9.138 0 0 1 .164-1.574.258.258 0 0 0-.246-.26 8.688 8.688 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.246.245 8.812 8.812 0 0 1 .164 1.6"></path></g></svg></div>
+                                                    <p class="uk-text-small uk-margin-remove uk-text-bold uk-text-uppercase">3</p>
+                                                </div><div class="uk-flex uk-flex-middle uk-margin-small-top">
+                                                    <div class="uk-flex uk-flex-center" style="min-width: 18px; margin-right: 0.5333rem;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="9" height="21"><g data-name="263-Ruler" fill="none" stroke="#bcbcbc" stroke-linejoin="round"><path data-name="Retângulo 19" d="M.5.5h8v20h-8z"></path><path data-name="Linha 12" d="M.5 10.5h4"></path><path data-name="Linha 13" d="M.5 5.167h4"></path><path data-name="Linha 14" d="M.5 15.834h4"></path></g></svg>
+                                                    </div>
+                                                    <p class="uk-text-small uk-margin-remove uk-text-bold">195 m²</p>
+                                                </div><a href="#" class="uk-button-link" alt="Confira" data-text="Confira">→</a>
+                                        </div>
+                                        <a class="uk-position-cover uk-position-z-index" href="#" title="D.O.C – Vila Nova Conceição"></a>
+                                    </div>
+                                </div><div data-uk-filter="Lançamentos">
+                            <div class="uk-panel uk-overlay-hover via-cards-empreendimentos">
+                                <div class="uk-overlay">
+                                    <div class="uk-overlay-scale" style="background: url(images/card-onze.jpg) no-repeat; width: 767px; max-width: 100%; background-size: cover; background-position: center; height: 336px;"></div>
+                                </div><div class="uk-panel-box">
+                                    <p class="uk-margin-remove uk-text-bold uk-text-uppercase">Onze Vila Clementino</p><div class="uk-flex uk-flex-middle uk-margin-top">                                   
+                                            <div style="min-width: 18px; margin-right: 0.5333rem; margin-top: -4px;"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="14.82"><g fill="none" stroke="#bcbcbc" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path data-name="Caminho 41" d="M16 6.301H3.206A2.6 2.6 0 0 0 .5 8.772v3.713c0 .171.267.385.437.385h17.328c.171 0 .235-.214.235-.385V8.772A2.426 2.426 0 0 0 16 6.301z"></path><path data-name="Caminho 42" d="M18.5 9.681a.309.309 0 0 0-.309-.309H.809a.309.309 0 0 0-.309.309v2.879a.309.309 0 0 0 .309.309h17.382a.309.309 0 0 0 .309-.309z"></path><path data-name="Caminho 43" d="M16.965 5.363V.727c0-.171-.076-.227-.247-.227H2.485c-.171 0-.364.056-.364.227v4.636"></path><path data-name="Linha 10" d="M.5 11.249v3.071"></path><path data-name="Linha 11" d="M18.5 11.249v3.071"></path><path data-name="Caminho 44" d="M13.769 5.355a9.133 9.133 0 0 1 .164-1.574.258.258 0 0 0-.247-.26 8.686 8.686 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.247.245 8.8 8.8 0 0 1 .164 1.6"></path><path data-name="Caminho 45" d="M8.719 5.355a9.138 9.138 0 0 1 .164-1.574.258.258 0 0 0-.246-.26 8.688 8.688 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.246.245 8.812 8.812 0 0 1 .164 1.6"></path></g></svg></div>
+                                                <p class="uk-text-small uk-margin-remove uk-text-bold uk-text-uppercase">1 a 3</p>
+                                            </div><div class="uk-flex uk-flex-middle uk-margin-small-top">
+                                                <div class="uk-flex uk-flex-center" style="min-width: 18px; margin-right: 0.5333rem;">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="9" height="21"><g data-name="263-Ruler" fill="none" stroke="#bcbcbc" stroke-linejoin="round"><path data-name="Retângulo 19" d="M.5.5h8v20h-8z"></path><path data-name="Linha 12" d="M.5 10.5h4"></path><path data-name="Linha 13" d="M.5 5.167h4"></path><path data-name="Linha 14" d="M.5 15.834h4"></path></g></svg>
+                                                </div>
+                                                <p class="uk-text-small uk-margin-remove uk-text-bold">34 a 115m²</p>
+                                            </div><a href="#" class="uk-button-link" alt="Confira" data-text="Confira">→</a>
+                                    </div>
+                                    <a class="uk-position-cover uk-position-z-index" href="#" title="Onze Vila Clementino"></a>
+                                </div>
+                            </div><div data-uk-filter="Construção">
+                                <div class="uk-panel uk-overlay-hover via-cards-empreendimentos">
+                                    <div class="uk-overlay">
+                                        <div class="uk-overlay-scale" style="background: url(images/card-h-paulista.jpg) no-repeat; width: 767px; max-width: 100%; background-size: cover; background-position: center; height: 336px;"></div>
+                                    </div><div class="uk-panel-box">
+                                        <p class="uk-margin-remove uk-text-bold uk-text-uppercase">H.Paulista</p><div class="uk-flex uk-flex-middle uk-margin-small-top">
+                                                    <div class="uk-flex uk-flex-center" style="min-width: 18px; margin-right: 0.5333rem;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="9" height="21"><g data-name="263-Ruler" fill="none" stroke="#bcbcbc" stroke-linejoin="round"><path data-name="Retângulo 19" d="M.5.5h8v20h-8z"></path><path data-name="Linha 12" d="M.5 10.5h4"></path><path data-name="Linha 13" d="M.5 5.167h4"></path><path data-name="Linha 14" d="M.5 15.834h4"></path></g></svg>
+                                                    </div>
+                                                    <p class="uk-text-small uk-margin-remove uk-text-bold">21m² a 33m²</p>
+                                                </div><a href="#" class="uk-button-link" alt="Confira" data-text="Confira">→</a>
+                                        </div>
+                                        <a class="uk-position-cover uk-position-z-index" href="#" title="H.Paulista"></a>
+                                    </div>
+                                </div><div data-uk-filter="Prontos">
+                        <div class="uk-panel uk-overlay-hover via-cards-empreendimentos">
+                            <div class="uk-overlay">
+                                <div class="uk-overlay-scale" style="background: url(images/img-card-spression-1.jpg) no-repeat; width: 767px; max-width: 100%; background-size: cover; background-position: center; height: 336px;"></div>
+                            </div><div class="uk-margin-remove uk-panel-badge uk-badge"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><path d="M18 6.188a6.191 6.191 0 01-7.342 6.08l-.844.95a.844.844 0 01-.631.283H7.875v1.406a.844.844 0 01-.844.844H5.625v1.406a.844.844 0 01-.844.843H.844A.844.844 0 010 17.156v-2.744a.844.844 0 01.247-.6l5.688-5.685A6.188 6.188 0 1118 6.188zM11.813 4.5A1.688 1.688 0 1013.5 2.813 1.687 1.687 0 0011.813 4.5z" fill="#fff"></path></svg><span>Pronto</span></div><div class="uk-panel-box">
+                                <p class="uk-margin-remove uk-text-bold uk-text-uppercase">Spression Congonhas</p><div class="uk-flex uk-flex-middle uk-margin-small-top">
+                                            <div class="uk-flex uk-flex-center" style="min-width: 18px; margin-right: 0.5333rem;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="21"><g data-name="263-Ruler" fill="none" stroke="#bcbcbc" stroke-linejoin="round"><path data-name="Retângulo 19" d="M.5.5h8v20h-8z"></path><path data-name="Linha 12" d="M.5 10.5h4"></path><path data-name="Linha 13" d="M.5 5.167h4"></path><path data-name="Linha 14" d="M.5 15.834h4"></path></g></svg>
+                                            </div>
+                                            <p class="uk-text-small uk-margin-remove uk-text-bold">29m²</p>
+                                        </div><a href="#" class="uk-button-link" alt="Confira" data-text="Confira">→</a>
+                                </div>
+                                <a class="uk-position-cover uk-position-z-index" href="#" title="Spression Congonhas"></a>
+                            </div>
+                        </div><div data-uk-filter="Construção">
+                                <div class="uk-panel uk-overlay-hover via-cards-empreendimentos">
+                                    <div class="uk-overlay">
+                                        <div class="uk-overlay-scale" style="background: url(images/Fachada-Lateral-scaled.jpg) no-repeat; width: 767px; max-width: 100%; background-size: cover; background-position: center; height: 336px;"></div>
+                                    </div><div class="uk-panel-box">
+                                        <p class="uk-margin-remove uk-text-bold uk-text-uppercase">Sintonia Ibirapuera</p><div class="uk-flex uk-flex-middle uk-margin-top">                                   
+                                                <div style="min-width: 18px; margin-right: 0.5333rem; margin-top: -4px;"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="14.82"><g fill="none" stroke="#bcbcbc" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path data-name="Caminho 41" d="M16 6.301H3.206A2.6 2.6 0 0 0 .5 8.772v3.713c0 .171.267.385.437.385h17.328c.171 0 .235-.214.235-.385V8.772A2.426 2.426 0 0 0 16 6.301z"></path><path data-name="Caminho 42" d="M18.5 9.681a.309.309 0 0 0-.309-.309H.809a.309.309 0 0 0-.309.309v2.879a.309.309 0 0 0 .309.309h17.382a.309.309 0 0 0 .309-.309z"></path><path data-name="Caminho 43" d="M16.965 5.363V.727c0-.171-.076-.227-.247-.227H2.485c-.171 0-.364.056-.364.227v4.636"></path><path data-name="Linha 10" d="M.5 11.249v3.071"></path><path data-name="Linha 11" d="M18.5 11.249v3.071"></path><path data-name="Caminho 44" d="M13.769 5.355a9.133 9.133 0 0 1 .164-1.574.258.258 0 0 0-.247-.26 8.686 8.686 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.247.245 8.8 8.8 0 0 1 .164 1.6"></path><path data-name="Caminho 45" d="M8.719 5.355a9.138 9.138 0 0 1 .164-1.574.258.258 0 0 0-.246-.26 8.688 8.688 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.246.245 8.812 8.812 0 0 1 .164 1.6"></path></g></svg></div>
+                                                    <p class="uk-text-small uk-margin-remove uk-text-bold uk-text-uppercase">2 ou 3</p>
+                                                </div><div class="uk-flex uk-flex-middle uk-margin-small-top">
+                                                    <div class="uk-flex uk-flex-center" style="min-width: 18px; margin-right: 0.5333rem;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="9" height="21"><g data-name="263-Ruler" fill="none" stroke="#bcbcbc" stroke-linejoin="round"><path data-name="Retângulo 19" d="M.5.5h8v20h-8z"></path><path data-name="Linha 12" d="M.5 10.5h4"></path><path data-name="Linha 13" d="M.5 5.167h4"></path><path data-name="Linha 14" d="M.5 15.834h4"></path></g></svg>
+                                                    </div>
+                                                    <p class="uk-text-small uk-margin-remove uk-text-bold">83 m² a 140 m²</p>
+                                                </div><a href="#" class="uk-button-link" alt="Confira" data-text="Confira">→</a>
+                                        </div>
+                                        <a class="uk-position-cover uk-position-z-index" href="#" title="Sintonia Ibirapuera"></a>
+                                    </div>
+                                </div><div data-uk-filter="Prontos">
+                        <div class="uk-panel uk-overlay-hover via-cards-empreendimentos">
+                            <div class="uk-overlay">
+                                <div class="uk-overlay-scale" style="background: url(images/card-beyond.jpg) no-repeat; width: 767px; max-width: 100%; background-size: cover; background-position: center; height: 336px;"></div>
+                            </div><div class="uk-margin-remove uk-panel-badge uk-badge"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><path d="M18 6.188a6.191 6.191 0 01-7.342 6.08l-.844.95a.844.844 0 01-.631.283H7.875v1.406a.844.844 0 01-.844.844H5.625v1.406a.844.844 0 01-.844.843H.844A.844.844 0 010 17.156v-2.744a.844.844 0 01.247-.6l5.688-5.685A6.188 6.188 0 1118 6.188zM11.813 4.5A1.688 1.688 0 1013.5 2.813 1.687 1.687 0 0011.813 4.5z" fill="#fff"></path></svg><span>Pronto</span></div><div class="uk-panel-box">
+                                <p class="uk-margin-remove uk-text-bold uk-text-uppercase">Beyond Jardins</p><div class="uk-flex uk-flex-middle uk-margin-top">                                   
+                                        <div style="min-width: 18px; margin-right: 0.5333rem; margin-top: -4px;"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="14.82"><g fill="none" stroke="#bcbcbc" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path data-name="Caminho 41" d="M16 6.301H3.206A2.6 2.6 0 0 0 .5 8.772v3.713c0 .171.267.385.437.385h17.328c.171 0 .235-.214.235-.385V8.772A2.426 2.426 0 0 0 16 6.301z"></path><path data-name="Caminho 42" d="M18.5 9.681a.309.309 0 0 0-.309-.309H.809a.309.309 0 0 0-.309.309v2.879a.309.309 0 0 0 .309.309h17.382a.309.309 0 0 0 .309-.309z"></path><path data-name="Caminho 43" d="M16.965 5.363V.727c0-.171-.076-.227-.247-.227H2.485c-.171 0-.364.056-.364.227v4.636"></path><path data-name="Linha 10" d="M.5 11.249v3.071"></path><path data-name="Linha 11" d="M18.5 11.249v3.071"></path><path data-name="Caminho 44" d="M13.769 5.355a9.133 9.133 0 0 1 .164-1.574.258.258 0 0 0-.247-.26 8.686 8.686 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.247.245 8.8 8.8 0 0 1 .164 1.6"></path><path data-name="Caminho 45" d="M8.719 5.355a9.138 9.138 0 0 1 .164-1.574.258.258 0 0 0-.246-.26 8.688 8.688 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.246.245 8.812 8.812 0 0 1 .164 1.6"></path></g></svg></div>
+                                            <p class="uk-text-small uk-margin-remove uk-text-bold uk-text-uppercase">4 Suítes</p>
+                                        </div><div class="uk-flex uk-flex-middle uk-margin-small-top">
+                                            <div class="uk-flex uk-flex-center" style="min-width: 18px; margin-right: 0.5333rem;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="21"><g data-name="263-Ruler" fill="none" stroke="#bcbcbc" stroke-linejoin="round"><path data-name="Retângulo 19" d="M.5.5h8v20h-8z"></path><path data-name="Linha 12" d="M.5 10.5h4"></path><path data-name="Linha 13" d="M.5 5.167h4"></path><path data-name="Linha 14" d="M.5 15.834h4"></path></g></svg>
+                                            </div>
+                                            <p class="uk-text-small uk-margin-remove uk-text-bold">270m²</p>
+                                        </div><a href="#" class="uk-button-link" alt="Confira" data-text="Confira">→</a>
+                                </div>
+                                <a class="uk-position-cover uk-position-z-index" href="#" title="Beyond Jardins"></a>
+                            </div>
+                        </div><div data-uk-filter="Prontos">
+                        <div class="uk-panel uk-overlay-hover via-cards-empreendimentos">
+                            <div class="uk-overlay">
+                                <div class="uk-overlay-scale" style="background: url(images/card-riviera.jpg) no-repeat; width: 767px; max-width: 100%; background-size: cover; background-position: center; height: 336px;"></div>
+                            </div><div class="uk-margin-remove uk-panel-badge uk-badge"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><path d="M18 6.188a6.191 6.191 0 01-7.342 6.08l-.844.95a.844.844 0 01-.631.283H7.875v1.406a.844.844 0 01-.844.844H5.625v1.406a.844.844 0 01-.844.843H.844A.844.844 0 010 17.156v-2.744a.844.844 0 01.247-.6l5.688-5.685A6.188 6.188 0 1118 6.188zM11.813 4.5A1.688 1.688 0 1013.5 2.813 1.687 1.687 0 0011.813 4.5z" fill="#fff"></path></svg><span>Pronto</span></div><div class="uk-panel-box">
+                                <p class="uk-margin-remove uk-text-bold uk-text-uppercase">Reserva do Golf</p><div class="uk-flex uk-flex-middle uk-margin-top">                                   
+                                        <div style="min-width: 18px; margin-right: 0.5333rem; margin-top: -4px;"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="14.82"><g fill="none" stroke="#bcbcbc" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path data-name="Caminho 41" d="M16 6.301H3.206A2.6 2.6 0 0 0 .5 8.772v3.713c0 .171.267.385.437.385h17.328c.171 0 .235-.214.235-.385V8.772A2.426 2.426 0 0 0 16 6.301z"></path><path data-name="Caminho 42" d="M18.5 9.681a.309.309 0 0 0-.309-.309H.809a.309.309 0 0 0-.309.309v2.879a.309.309 0 0 0 .309.309h17.382a.309.309 0 0 0 .309-.309z"></path><path data-name="Caminho 43" d="M16.965 5.363V.727c0-.171-.076-.227-.247-.227H2.485c-.171 0-.364.056-.364.227v4.636"></path><path data-name="Linha 10" d="M.5 11.249v3.071"></path><path data-name="Linha 11" d="M18.5 11.249v3.071"></path><path data-name="Caminho 44" d="M13.769 5.355a9.133 9.133 0 0 1 .164-1.574.258.258 0 0 0-.247-.26 8.686 8.686 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.247.245 8.8 8.8 0 0 1 .164 1.6"></path><path data-name="Caminho 45" d="M8.719 5.355a9.138 9.138 0 0 1 .164-1.574.258.258 0 0 0-.246-.26 8.688 8.688 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.246.245 8.812 8.812 0 0 1 .164 1.6"></path></g></svg></div>
+                                            <p class="uk-text-small uk-margin-remove uk-text-bold uk-text-uppercase">4 suites </p>
+                                        </div><div class="uk-flex uk-flex-middle uk-margin-small-top">
+                                            <div class="uk-flex uk-flex-center" style="min-width: 18px; margin-right: 0.5333rem;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="21"><g data-name="263-Ruler" fill="none" stroke="#bcbcbc" stroke-linejoin="round"><path data-name="Retângulo 19" d="M.5.5h8v20h-8z"></path><path data-name="Linha 12" d="M.5 10.5h4"></path><path data-name="Linha 13" d="M.5 5.167h4"></path><path data-name="Linha 14" d="M.5 15.834h4"></path></g></svg>
+                                            </div>
+                                            <p class="uk-text-small uk-margin-remove uk-text-bold">493m²</p>
+                                        </div><a href="#" class="uk-button-link" alt="Confira" data-text="Confira">→</a>
+                                </div>
+                                <a class="uk-position-cover uk-position-z-index" href="#" title="Reserva do Golf"></a>
+                            </div>
+                        </div><div data-uk-filter="Prontos">
+                        <div class="uk-panel uk-overlay-hover via-cards-empreendimentos">
+                            <div class="uk-overlay">
+                                <div class="uk-overlay-scale" style="background: url(images/RYazbek070621-002-min-scaled-e1655906814628.jpg) no-repeat; width: 767px; max-width: 100%; background-size: cover; background-position: center; height: 336px;"></div>
+                            </div><div class="uk-margin-remove uk-panel-badge uk-badge"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><path d="M18 6.188a6.191 6.191 0 01-7.342 6.08l-.844.95a.844.844 0 01-.631.283H7.875v1.406a.844.844 0 01-.844.844H5.625v1.406a.844.844 0 01-.844.843H.844A.844.844 0 010 17.156v-2.744a.844.844 0 01.247-.6l5.688-5.685A6.188 6.188 0 1118 6.188zM11.813 4.5A1.688 1.688 0 1013.5 2.813 1.687 1.687 0 0011.813 4.5z" fill="#fff"></path></svg><span>Pronto</span></div><div class="uk-panel-box">
+                                <p class="uk-margin-remove uk-text-bold uk-text-uppercase">APOGEE VILA MARIANA</p><div class="uk-flex uk-flex-middle uk-margin-top">                                   
+                                        <div style="min-width: 18px; margin-right: 0.5333rem; margin-top: -4px;"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="14.82"><g fill="none" stroke="#bcbcbc" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path data-name="Caminho 41" d="M16 6.301H3.206A2.6 2.6 0 0 0 .5 8.772v3.713c0 .171.267.385.437.385h17.328c.171 0 .235-.214.235-.385V8.772A2.426 2.426 0 0 0 16 6.301z"></path><path data-name="Caminho 42" d="M18.5 9.681a.309.309 0 0 0-.309-.309H.809a.309.309 0 0 0-.309.309v2.879a.309.309 0 0 0 .309.309h17.382a.309.309 0 0 0 .309-.309z"></path><path data-name="Caminho 43" d="M16.965 5.363V.727c0-.171-.076-.227-.247-.227H2.485c-.171 0-.364.056-.364.227v4.636"></path><path data-name="Linha 10" d="M.5 11.249v3.071"></path><path data-name="Linha 11" d="M18.5 11.249v3.071"></path><path data-name="Caminho 44" d="M13.769 5.355a9.133 9.133 0 0 1 .164-1.574.258.258 0 0 0-.247-.26 8.686 8.686 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.247.245 8.8 8.8 0 0 1 .164 1.6"></path><path data-name="Caminho 45" d="M8.719 5.355a9.138 9.138 0 0 1 .164-1.574.258.258 0 0 0-.246-.26 8.688 8.688 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.246.245 8.812 8.812 0 0 1 .164 1.6"></path></g></svg></div>
+                                            <p class="uk-text-small uk-margin-remove uk-text-bold uk-text-uppercase">3 Suítes</p>
+                                        </div><div class="uk-flex uk-flex-middle uk-margin-small-top">
+                                            <div class="uk-flex uk-flex-center" style="min-width: 18px; margin-right: 0.5333rem;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="21"><g data-name="263-Ruler" fill="none" stroke="#bcbcbc" stroke-linejoin="round"><path data-name="Retângulo 19" d="M.5.5h8v20h-8z"></path><path data-name="Linha 12" d="M.5 10.5h4"></path><path data-name="Linha 13" d="M.5 5.167h4"></path><path data-name="Linha 14" d="M.5 15.834h4"></path></g></svg>
+                                            </div>
+                                            <p class="uk-text-small uk-margin-remove uk-text-bold">131m²</p>
+                                        </div><a href="#" class="uk-button-link" alt="Confira" data-text="Confira">→</a>
+                                </div>
+                                <a class="uk-position-cover uk-position-z-index" href="#" title="APOGEE VILA MARIANA"></a>
+                            </div>
+                        </div><div data-uk-filter="Prontos">
+                        <div class="uk-panel uk-overlay-hover via-cards-empreendimentos">
+                            <div class="uk-overlay">
+                                <div class="uk-overlay-scale" style="background: url(images/card-singular.jpg) no-repeat; width: 767px; max-width: 100%; background-size: cover; background-position: center; height: 336px;"></div>
+                            </div><div class="uk-margin-remove uk-panel-badge uk-badge"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><path d="M18 6.188a6.191 6.191 0 01-7.342 6.08l-.844.95a.844.844 0 01-.631.283H7.875v1.406a.844.844 0 01-.844.844H5.625v1.406a.844.844 0 01-.844.843H.844A.844.844 0 010 17.156v-2.744a.844.844 0 01.247-.6l5.688-5.685A6.188 6.188 0 1118 6.188zM11.813 4.5A1.688 1.688 0 1013.5 2.813 1.687 1.687 0 0011.813 4.5z" fill="#fff"></path></svg><span>Pronto</span></div><div class="uk-panel-box">
+                                <p class="uk-margin-remove uk-text-bold uk-text-uppercase">The Singular Paraíso</p><div class="uk-flex uk-flex-middle uk-margin-top">                                   
+                                        <div style="min-width: 18px; margin-right: 0.5333rem; margin-top: -4px;"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="14.82"><g fill="none" stroke="#bcbcbc" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path data-name="Caminho 41" d="M16 6.301H3.206A2.6 2.6 0 0 0 .5 8.772v3.713c0 .171.267.385.437.385h17.328c.171 0 .235-.214.235-.385V8.772A2.426 2.426 0 0 0 16 6.301z"></path><path data-name="Caminho 42" d="M18.5 9.681a.309.309 0 0 0-.309-.309H.809a.309.309 0 0 0-.309.309v2.879a.309.309 0 0 0 .309.309h17.382a.309.309 0 0 0 .309-.309z"></path><path data-name="Caminho 43" d="M16.965 5.363V.727c0-.171-.076-.227-.247-.227H2.485c-.171 0-.364.056-.364.227v4.636"></path><path data-name="Linha 10" d="M.5 11.249v3.071"></path><path data-name="Linha 11" d="M18.5 11.249v3.071"></path><path data-name="Caminho 44" d="M13.769 5.355a9.133 9.133 0 0 1 .164-1.574.258.258 0 0 0-.247-.26 8.686 8.686 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.247.245 8.8 8.8 0 0 1 .164 1.6"></path><path data-name="Caminho 45" d="M8.719 5.355a9.138 9.138 0 0 1 .164-1.574.258.258 0 0 0-.246-.26 8.688 8.688 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.246.245 8.812 8.812 0 0 1 .164 1.6"></path></g></svg></div>
+                                            <p class="uk-text-small uk-margin-remove uk-text-bold uk-text-uppercase">4 Suítes</p>
+                                        </div><div class="uk-flex uk-flex-middle uk-margin-small-top">
+                                            <div class="uk-flex uk-flex-center" style="min-width: 18px; margin-right: 0.5333rem;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="21"><g data-name="263-Ruler" fill="none" stroke="#bcbcbc" stroke-linejoin="round"><path data-name="Retângulo 19" d="M.5.5h8v20h-8z"></path><path data-name="Linha 12" d="M.5 10.5h4"></path><path data-name="Linha 13" d="M.5 5.167h4"></path><path data-name="Linha 14" d="M.5 15.834h4"></path></g></svg>
+                                            </div>
+                                            <p class="uk-text-small uk-margin-remove uk-text-bold">320m²</p>
+                                        </div><a href="#" class="uk-button-link" alt="Confira" data-text="Confira">→</a>
+                                </div>
+                                <a class="uk-position-cover uk-position-z-index" href="#" title="The Singular Paraíso"></a>
+                            </div>
+                        </div><div data-uk-filter="Prontos">
+                        <div class="uk-panel uk-overlay-hover via-cards-empreendimentos">
+                            <div class="uk-overlay">
+                                <div class="uk-overlay-scale" style="background: url(images/card-paramount-ibirapuera.jpg) no-repeat; width: 767px; max-width: 100%; background-size: cover; background-position: center; height: 336px;"></div>
+                            </div><div class="uk-margin-remove uk-panel-badge uk-badge"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><path d="M18 6.188a6.191 6.191 0 01-7.342 6.08l-.844.95a.844.844 0 01-.631.283H7.875v1.406a.844.844 0 01-.844.844H5.625v1.406a.844.844 0 01-.844.843H.844A.844.844 0 010 17.156v-2.744a.844.844 0 01.247-.6l5.688-5.685A6.188 6.188 0 1118 6.188zM11.813 4.5A1.688 1.688 0 1013.5 2.813 1.687 1.687 0 0011.813 4.5z" fill="#fff"></path></svg><span>Pronto</span></div><div class="uk-panel-box">
+                                <p class="uk-margin-remove uk-text-bold uk-text-uppercase">Paramount Ibirapuera</p><div class="uk-flex uk-flex-middle uk-margin-top">                                   
+                                        <div style="min-width: 18px; margin-right: 0.5333rem; margin-top: -4px;"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="14.82"><g fill="none" stroke="#bcbcbc" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path data-name="Caminho 41" d="M16 6.301H3.206A2.6 2.6 0 0 0 .5 8.772v3.713c0 .171.267.385.437.385h17.328c.171 0 .235-.214.235-.385V8.772A2.426 2.426 0 0 0 16 6.301z"></path><path data-name="Caminho 42" d="M18.5 9.681a.309.309 0 0 0-.309-.309H.809a.309.309 0 0 0-.309.309v2.879a.309.309 0 0 0 .309.309h17.382a.309.309 0 0 0 .309-.309z"></path><path data-name="Caminho 43" d="M16.965 5.363V.727c0-.171-.076-.227-.247-.227H2.485c-.171 0-.364.056-.364.227v4.636"></path><path data-name="Linha 10" d="M.5 11.249v3.071"></path><path data-name="Linha 11" d="M18.5 11.249v3.071"></path><path data-name="Caminho 44" d="M13.769 5.355a9.133 9.133 0 0 1 .164-1.574.258.258 0 0 0-.247-.26 8.686 8.686 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.247.245 8.8 8.8 0 0 1 .164 1.6"></path><path data-name="Caminho 45" d="M8.719 5.355a9.138 9.138 0 0 1 .164-1.574.258.258 0 0 0-.246-.26 8.688 8.688 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.246.245 8.812 8.812 0 0 1 .164 1.6"></path></g></svg></div>
+                                            <p class="uk-text-small uk-margin-remove uk-text-bold uk-text-uppercase">3 suítes ou 4 dorms</p>
+                                        </div><div class="uk-flex uk-flex-middle uk-margin-small-top">
+                                            <div class="uk-flex uk-flex-center" style="min-width: 18px; margin-right: 0.5333rem;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="21"><g data-name="263-Ruler" fill="none" stroke="#bcbcbc" stroke-linejoin="round"><path data-name="Retângulo 19" d="M.5.5h8v20h-8z"></path><path data-name="Linha 12" d="M.5 10.5h4"></path><path data-name="Linha 13" d="M.5 5.167h4"></path><path data-name="Linha 14" d="M.5 15.834h4"></path></g></svg>
+                                            </div>
+                                            <p class="uk-text-small uk-margin-remove uk-text-bold">292m²</p>
+                                        </div><a href="#" class="uk-button-link" alt="Confira" data-text="Confira">→</a>
+                                </div>
+                                <a class="uk-position-cover uk-position-z-index" href="#" title="Paramount Ibirapuera"></a>
+                            </div>
+                        </div><div data-uk-filter="Prontos">
+                        <div class="uk-panel uk-overlay-hover via-cards-empreendimentos">
+                            <div class="uk-overlay">
+                                <div class="uk-overlay-scale" style="background: url(images/card-gate-i.jpg) no-repeat; width: 767px; max-width: 100%; background-size: cover; background-position: center; height: 336px;"></div>
+                            </div><div class="uk-margin-remove uk-panel-badge uk-badge"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><path d="M18 6.188a6.191 6.191 0 01-7.342 6.08l-.844.95a.844.844 0 01-.631.283H7.875v1.406a.844.844 0 01-.844.844H5.625v1.406a.844.844 0 01-.844.843H.844A.844.844 0 010 17.156v-2.744a.844.844 0 01.247-.6l5.688-5.685A6.188 6.188 0 1118 6.188zM11.813 4.5A1.688 1.688 0 1013.5 2.813 1.687 1.687 0 0011.813 4.5z" fill="#fff"></path></svg><span>Pronto</span></div><div class="uk-panel-box">
+                                <p class="uk-margin-remove uk-text-bold uk-text-uppercase">Gate 1 Corporate Offices</p><div class="uk-flex uk-flex-middle uk-margin-top">                                   
+                                        <div style="min-width: 18px; margin-right: 0.5333rem; margin-top: -4px;"><svg xmlns="http://www.w3.org/2000/svg" width="20.793" height="20.793"><g data-name="Grupo 142"><g data-name="Grupo 141" fill="#bcbcbc" stroke="#bcbcbc" stroke-width=".3"><path data-name="Caminho 118" d="M20.302 18.594h-1.025V.492a.323.323 0 00-.341-.342H1.858a.323.323 0 00-.342.342v18.1H.492a.323.323 0 00-.342.344v1.366a.323.323 0 00.342.342h19.81a.323.323 0 00.342-.342v-1.366a.323.323 0 00-.342-.342zM2.199.833h16.395v17.761h-5.123v-3.757a.323.323 0 00-.342-.342H7.664a.323.323 0 00-.342.342v3.757H2.199zm5.807 17.761v-3.415h2.049v3.416zm2.732-3.416h2.049v3.416h-2.049zm9.222 4.782H.833v-.683H19.96v.683z"></path><path data-name="Caminho 119" d="M6.64 1.858H3.908a.323.323 0 00-.342.342v2.049a.323.323 0 00.342.342H6.64a.323.323 0 00.342-.342V2.2a.323.323 0 00-.342-.342zm-.342 2.049H4.249V2.541h2.049z"></path><path data-name="Caminho 120" d="M6.64 5.615H3.908a.323.323 0 00-.342.342v2.049a.323.323 0 00.342.342H6.64a.323.323 0 00.342-.342V5.957a.323.323 0 00-.342-.342zm-.342 2.049H4.249V6.298h2.049z"></path><path data-name="Caminho 121" d="M9.031 8.347h2.732a.323.323 0 00.342-.342V5.956a.323.323 0 00-.342-.342H9.031a.323.323 0 00-.342.342v2.049a.323.323 0 00.342.342zm.342-2.049h2.049v1.366H9.373z"></path><path data-name="Caminho 122" d="M14.154 8.347h2.732a.323.323 0 00.342-.342V5.956a.323.323 0 00-.342-.342h-2.732a.323.323 0 00-.342.342v2.049a.323.323 0 00.342.342zm.342-2.049h2.049v1.366h-2.049z"></path><path data-name="Caminho 123" d="M9.031 12.104h2.732a.323.323 0 00.342-.342V9.713a.323.323 0 00-.342-.342H9.031a.323.323 0 00-.342.342v2.049a.323.323 0 00.342.342zm.342-2.049h2.049v1.366H9.373z"></path><path data-name="Caminho 124" d="M14.154 12.104h2.732a.323.323 0 00.342-.342V9.713a.323.323 0 00-.342-.342h-2.732a.323.323 0 00-.342.342v2.049a.323.323 0 00.342.342zm.342-2.049h2.049v1.366h-2.049z"></path><path data-name="Caminho 125" d="M6.64 9.372H3.908a.323.323 0 00-.342.342v2.049a.323.323 0 00.342.342H6.64a.323.323 0 00.342-.342V9.714a.323.323 0 00-.342-.342zm-.342 2.049H4.249v-1.366h2.049z"></path><path data-name="Caminho 126" d="M9.031 4.59h2.732a.323.323 0 00.342-.342V2.2a.323.323 0 00-.342-.342H9.031a.323.323 0 00-.342.342v2.049a.323.323 0 00.342.341zm.342-2.049h2.049v1.366H9.373z"></path><path data-name="Caminho 127" d="M14.154 4.59h2.732a.323.323 0 00.342-.342V2.2a.323.323 0 00-.342-.342h-2.732a.323.323 0 00-.342.342v2.049a.323.323 0 00.342.341zm.342-2.049h2.049v1.366h-2.049z"></path><path data-name="Caminho 128" d="M8.348 13.812h4.1a.342.342 0 000-.683h-4.1a.342.342 0 000 .683z"></path></g></g></svg></div>
+                                            <p class="uk-text-small uk-margin-remove uk-text-bold uk-text-uppercase">10 salas</p>
+                                        </div><div class="uk-flex uk-flex-middle uk-margin-small-top">
+                                            <div class="uk-flex uk-flex-center" style="min-width: 18px; margin-right: 0.5333rem;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="21"><g data-name="263-Ruler" fill="none" stroke="#bcbcbc" stroke-linejoin="round"><path data-name="Retângulo 19" d="M.5.5h8v20h-8z"></path><path data-name="Linha 12" d="M.5 10.5h4"></path><path data-name="Linha 13" d="M.5 5.167h4"></path><path data-name="Linha 14" d="M.5 15.834h4"></path></g></svg>
+                                            </div>
+                                            <p class="uk-text-small uk-margin-remove uk-text-bold">42m²</p>
+                                        </div><a href="#" class="uk-button-link" alt="Confira" data-text="Confira">→</a>
+                                </div>
+                                <a class="uk-position-cover uk-position-z-index" href="#" title="Gate 1 Corporate Offices"></a>
+                            </div>
+                        </div><div data-uk-filter="Prontos">
+                        <div class="uk-panel uk-overlay-hover via-cards-empreendimentos">
+                            <div class="uk-overlay">
+                                <div class="uk-overlay-scale" style="background: url(images/card-madrigal.jpg) no-repeat; width: 767px; max-width: 100%; background-size: cover; background-position: center; height: 336px;"></div>
+                            </div><div class="uk-margin-remove uk-panel-badge uk-badge"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><path d="M18 6.188a6.191 6.191 0 01-7.342 6.08l-.844.95a.844.844 0 01-.631.283H7.875v1.406a.844.844 0 01-.844.844H5.625v1.406a.844.844 0 01-.844.843H.844A.844.844 0 010 17.156v-2.744a.844.844 0 01.247-.6l5.688-5.685A6.188 6.188 0 1118 6.188zM11.813 4.5A1.688 1.688 0 1013.5 2.813 1.687 1.687 0 0011.813 4.5z" fill="#fff"></path></svg><span>Pronto</span></div><div class="uk-panel-box">
+                                <p class="uk-margin-remove uk-text-bold uk-text-uppercase">Madrigal</p><div class="uk-flex uk-flex-middle uk-margin-top">                                   
+                                        <div style="min-width: 18px; margin-right: 0.5333rem; margin-top: -4px;"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="14.82"><g fill="none" stroke="#bcbcbc" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path data-name="Caminho 41" d="M16 6.301H3.206A2.6 2.6 0 0 0 .5 8.772v3.713c0 .171.267.385.437.385h17.328c.171 0 .235-.214.235-.385V8.772A2.426 2.426 0 0 0 16 6.301z"></path><path data-name="Caminho 42" d="M18.5 9.681a.309.309 0 0 0-.309-.309H.809a.309.309 0 0 0-.309.309v2.879a.309.309 0 0 0 .309.309h17.382a.309.309 0 0 0 .309-.309z"></path><path data-name="Caminho 43" d="M16.965 5.363V.727c0-.171-.076-.227-.247-.227H2.485c-.171 0-.364.056-.364.227v4.636"></path><path data-name="Linha 10" d="M.5 11.249v3.071"></path><path data-name="Linha 11" d="M18.5 11.249v3.071"></path><path data-name="Caminho 44" d="M13.769 5.355a9.133 9.133 0 0 1 .164-1.574.258.258 0 0 0-.247-.26 8.686 8.686 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.247.245 8.8 8.8 0 0 1 .164 1.6"></path><path data-name="Caminho 45" d="M8.719 5.355a9.138 9.138 0 0 1 .164-1.574.258.258 0 0 0-.246-.26 8.688 8.688 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.246.245 8.812 8.812 0 0 1 .164 1.6"></path></g></svg></div>
+                                            <p class="uk-text-small uk-margin-remove uk-text-bold uk-text-uppercase">2 suítes ou 3 dorms</p>
+                                        </div><div class="uk-flex uk-flex-middle uk-margin-small-top">
+                                            <div class="uk-flex uk-flex-center" style="min-width: 18px; margin-right: 0.5333rem;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="21"><g data-name="263-Ruler" fill="none" stroke="#bcbcbc" stroke-linejoin="round"><path data-name="Retângulo 19" d="M.5.5h8v20h-8z"></path><path data-name="Linha 12" d="M.5 10.5h4"></path><path data-name="Linha 13" d="M.5 5.167h4"></path><path data-name="Linha 14" d="M.5 15.834h4"></path></g></svg>
+                                            </div>
+                                            <p class="uk-text-small uk-margin-remove uk-text-bold">90,10m² </p>
+                                        </div><a href="#" class="uk-button-link" alt="Confira" data-text="Confira">→</a>
+                                </div>
+                                <a class="uk-position-cover uk-position-z-index" href="#" title="Madrigal"></a>
+                            </div>
+                        </div><div data-uk-filter="Prontos">
+                        <div class="uk-panel uk-overlay-hover via-cards-empreendimentos">
+                            <div class="uk-overlay">
+                                <div class="uk-overlay-scale" style="background: url(images/card-must.jpg) no-repeat; width: 767px; max-width: 100%; background-size: cover; background-position: center; height: 336px;"></div>
+                            </div><div class="uk-margin-remove uk-panel-badge uk-badge"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><path d="M18 6.188a6.191 6.191 0 01-7.342 6.08l-.844.95a.844.844 0 01-.631.283H7.875v1.406a.844.844 0 01-.844.844H5.625v1.406a.844.844 0 01-.844.843H.844A.844.844 0 010 17.156v-2.744a.844.844 0 01.247-.6l5.688-5.685A6.188 6.188 0 1118 6.188zM11.813 4.5A1.688 1.688 0 1013.5 2.813 1.687 1.687 0 0011.813 4.5z" fill="#fff"></path></svg><span>Pronto</span></div><div class="uk-panel-box">
+                                <p class="uk-margin-remove uk-text-bold uk-text-uppercase">Must Jardim São Paulo</p><div class="uk-flex uk-flex-middle uk-margin-top">                                   
+                                        <div style="min-width: 18px; margin-right: 0.5333rem; margin-top: -4px;"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="14.82"><g fill="none" stroke="#bcbcbc" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path data-name="Caminho 41" d="M16 6.301H3.206A2.6 2.6 0 0 0 .5 8.772v3.713c0 .171.267.385.437.385h17.328c.171 0 .235-.214.235-.385V8.772A2.426 2.426 0 0 0 16 6.301z"></path><path data-name="Caminho 42" d="M18.5 9.681a.309.309 0 0 0-.309-.309H.809a.309.309 0 0 0-.309.309v2.879a.309.309 0 0 0 .309.309h17.382a.309.309 0 0 0 .309-.309z"></path><path data-name="Caminho 43" d="M16.965 5.363V.727c0-.171-.076-.227-.247-.227H2.485c-.171 0-.364.056-.364.227v4.636"></path><path data-name="Linha 10" d="M.5 11.249v3.071"></path><path data-name="Linha 11" d="M18.5 11.249v3.071"></path><path data-name="Caminho 44" d="M13.769 5.355a9.133 9.133 0 0 1 .164-1.574.258.258 0 0 0-.247-.26 8.686 8.686 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.247.245 8.8 8.8 0 0 1 .164 1.6"></path><path data-name="Caminho 45" d="M8.719 5.355a9.138 9.138 0 0 1 .164-1.574.258.258 0 0 0-.246-.26 8.688 8.688 0 0 1-1.52.157 9.706 9.706 0 0 1-1.6-.168.245.245 0 0 0-.246.245 8.812 8.812 0 0 1 .164 1.6"></path></g></svg></div>
+                                            <p class="uk-text-small uk-margin-remove uk-text-bold uk-text-uppercase">2 Suítes</p>
+                                        </div><div class="uk-flex uk-flex-middle uk-margin-small-top">
+                                            <div class="uk-flex uk-flex-center" style="min-width: 18px; margin-right: 0.5333rem;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="21"><g data-name="263-Ruler" fill="none" stroke="#bcbcbc" stroke-linejoin="round"><path data-name="Retângulo 19" d="M.5.5h8v20h-8z"></path><path data-name="Linha 12" d="M.5 10.5h4"></path><path data-name="Linha 13" d="M.5 5.167h4"></path><path data-name="Linha 14" d="M.5 15.834h4"></path></g></svg>
+                                            </div>
+                                            <p class="uk-text-small uk-margin-remove uk-text-bold">64m²</p>
+                                        </div><a href="#" class="uk-button-link" alt="Confira" data-text="Confira">→</a>
+                                </div>
+                                <a class="uk-position-cover uk-position-z-index" href="#" title="Must Jardim São Paulo"></a>
+                            </div>
+                        </div>            </div>
+            <a href="#" class="uk-button uk-margin-top uk-button-large" title="Veja mais" data-text="Veja mais →">Veja mais →</a></div></div></div>
+</section>
+        </div>
+    </div>
+    
+        <div data-wpr-lazyrender="1" id="tm-top-c" class="uk-block tm-block-padding-collapse uk-block-default">
+        <div class="">
+            <section class="tm-top-c uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin=""><div class="uk-width-1-1">
+	<div class="uk-panel widget_custom_html"><div class="textwidget custom-html-widget"><div class="uk-block uk-padding-bottom-remove">
+	<div class="uk-block uk-block-large uk-contrast" style="background: url(images/img-bg-atuacao.jpg) no-repeat; width: 100%; max-width: 100%; background-size: cover; background-position: center left;">
+		<div class="tm-container uk-container-center">
+			<div class="uk-grid" data-uk-grid-margin="">
+				<div class="uk-width-large-3-10">
+					<div class="uk-panel">
+						<h2 class="uk-text-uppercase uk-text-bold uk-margin-remove">A Y Construtora<br class="uk-visible-large">atua como <br class="uk-visible-large">Incorporadora <br class="uk-visible-large">e Construtora</h2>
+						<div class="via-divisor"></div>
+					</div>
+				</div>
+				<div class="uk-width-large-7-10">
+					<div class="uk-panel uk-width-xlarge-7-10 uk-width-large-8-10">
+						<h3 class="uk-margin-bottom-remove">Em <strong>29 anos</strong> construímos muito mais do que m². Construímos sonhos, laços, felicidade, lares, confiança, realizando:</h3>
+						<h3 class="via-text-border-left via-text-borderletter uk-margin-bottom-remove uk-margin-top">Estruturação de Negócios</h3>
+						<h3 class="via-text-border-left via-text-borderletter uk-margin-bottom-remove">Gestão de Incorporação Imobiliária</h3>
+						<h3 class="via-text-border-left via-text-borderletter uk-margin-bottom-remove">Prestação de Serviço</h3>
+						<div><a href="/conheca-a-r-yazbek/" class="uk-button uk-margin-top uk-button-large" title="Saiba mais" data-text="Saiba mais →">Saiba mais →</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="uk-block uk-padding-bottom-remove">
+				<div class="uk-flex uk-hidden-small uk-flex-space-between uk-width-xlarge-9-10">
+					<div class="uk-margin-large-right">
+						<h2 class="uk-margin-remove uk-text-bold">com</h2>
+						<h2 class="uk-margin-remove uk-text-bold uk-heading-small uk-text-uppercase">29</h2>
+						<p class="uk-margin-remove uk-text-bold uk-text-uppercase">anos</p>
+					</div>
+					<div class="uk-margin-large-right">
+						<h2 class="uk-margin-remove uk-text-bold">+ de</h2>
+						<h2 class="uk-margin-remove uk-text-bold uk-heading-small uk-text-uppercase">1.500</h2>
+						<p class="uk-margin-remove uk-text-bold uk-text-uppercase">CLIENTES</p>
+					</div>
+					<div class="uk-margin-large-right">
+						<h2 class="uk-margin-remove uk-text-bold">+ de</h2>
+						<h2 class="uk-margin-remove uk-text-bold uk-heading-small uk-text-uppercase">1milhão</h2>
+						<p class="uk-margin-remove uk-text-bold uk-text-uppercase">M² DE ÁREA CONSTRUÍDA</p>
+					</div>
+					<div>
+						<h2 class="uk-margin-remove uk-text-bold">+ de</h2>
+						<h2 class="uk-margin-remove uk-text-bold uk-heading-small uk-text-uppercase">5.500</h2>
+						<p class="uk-margin-remove uk-text-bold uk-text-uppercase">IMÓVEIS ENTREGUES</p>
+					</div>
+				</div>
+				<div class="uk-visible-small">
+					<div class="uk-flex">
+						<div class="uk-margin-large-right" style="min-width: 68px;">
+							<h2 class="uk-margin-remove uk-text-bold">+ de</h2>
+							<h2 class="uk-margin-remove uk-text-bold uk-heading-small uk-text-uppercase">24</h2>
+							<p class="uk-margin-remove uk-text-bold uk-text-uppercase">anos</p>
+						</div>
+						<div class="uk-margin-large-right">
+							<h2 class="uk-margin-remove uk-text-bold">+ de</h2>
+							<h2 class="uk-margin-remove uk-text-bold uk-heading-small uk-text-uppercase">1milhão</h2>
+							<p class="uk-margin-remove uk-text-bold uk-text-uppercase">M² DE ÁREA CONSTRUÍDA</p>
+						</div>
+					</div>
+					<div class="uk-flex uk-margin-top">
+						<div class="uk-margin-large-right" style="min-width: 68px;">
+							<h2 class="uk-margin-remove uk-text-bold">+ de</h2>
+							<h2 class="uk-margin-remove uk-text-bold uk-heading-small uk-text-uppercase">1.500</h2>
+							<p class="uk-margin-remove uk-text-bold uk-text-uppercase">CLIENTES</p>
+						</div>
+						<div>
+							<h2 class="uk-margin-remove uk-text-bold">+ de</h2>
+							<h2 class="uk-margin-remove uk-text-bold uk-heading-small uk-text-uppercase">5.500</h2>
+							<p class="uk-margin-remove uk-text-bold uk-text-uppercase">IMÓVEIS ENTREGUES</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div></div></div>
+</section>
+        </div>
+    </div>
+    
+    
+        <div id="tm-main" class="tm-block-main uk-block uk-block-default">
+        <div class=" tm-container uk-container-center">
+            <div class="uk-grid" data-uk-grid-match="" data-uk-grid-margin="">
+
+                                <div class="tm-main uk-width-medium-1-1 uk-flex-order-last">
+
+                    
+                                        <main id="tm-content" class="tm-content">
+
+                        
+                            
+    <article class="uk-article">
+
+        
+        <h1 class="uk-hidden">Y Construtora | Construtora e Incorporadora</h1>
+
+        
+    </article>
+
+    
+
+                    </main>
+                    
+                    
+                </div>
+                
+                                                    
+            </div>
+        </div>
+    </div>
+    
+    
+    
+        <div data-wpr-lazyrender="1" id="tm-bottom-c" class="uk-block tm-block-padding-collapse uk-block-default">
+        <div class="">
+            <section class="tm-bottom-c uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin=""><div class="uk-width-1-1">
+	<div class="uk-panel uk-margin-remove widget_custom_html"><div class="textwidget custom-html-widget"><div class="uk-contrast uk-padding-bottom-remove via-block-remove-medium">
+    <div class="via-newsletter">
+        <div class="tm-container uk-container-center">
+            <div class="uk-grid uk-grid-width-large-1-2" data-uk-grid-margin="">
+                <div>
+                    <div class="uk-panel">
+                        <h2 class="uk-margin-remove via-text-primary uk-text-bold uk-text-uppercase">Receba a nossa news <br class="uk-visible-large">em primeira mão!</h2>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div class="uk-panel uk-width-1-1">
+                        <script type="rocketlazyloadscript" data-rocket-type="text/javascript"></script>
+                <div class="gf_browser_chrome gform_wrapper gform_legacy_markup_wrapper gform-theme--no-framework uk-form_wrapper gf_simple_horizontal_wrapper" data-form-theme="legacy" data-form-index="0" id="gform_wrapper_1"><form method="post" enctype="multipart/form-data" id="gform_1" class="uk-form gf_simple_horizontal" action="/" data-formid="1" novalidate="">
+                        <div class="gform-body gform_body"><ul id="gform_fields_1" class="gform_fields top_label form_sublabel_below description_below validation_below"><li id="field_1_1" class="gfield gfield--type-email gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible" data-js-reload="field_1_1"><label class="gfield_label gform-field-label" for="input_1_1">Email<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class="ginput_container ginput_container_email">
+                            <input name="input_1" id="input_1_1" type="email" value="" class="large" placeholder="coloque seu e-mail aqui..." aria-required="true" aria-invalid="false">
+                        </div></li></ul></div>
+        <div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_1" class="gform_button button" value="Cadastrar" onclick="if(window[" gf_submitting_1"]){return="" false;}="" if(="" !jquery("#gform_1")[0].checkvalidity="" ||="" jquery("#gform_1")[0].checkvalidity()){window["gf_submitting_1"]="true;}" "="" onkeypress="if( event.keyCode == 13 ){ if(window[" jquery("#gform_1").trigger("submit",[true]);="" }"=""> 
+            <input type="hidden" class="gform_hidden" name="is_submit_1" value="1">
+            <input type="hidden" class="gform_hidden" name="gform_submit" value="1">
+            
+            <input type="hidden" class="gform_hidden" name="gform_unique_id" value="">
+            <input type="hidden" class="gform_hidden" name="state_1" value="WyJbXSIsIjRkNzRiZDBkZDhmM2RjMjFmYzQxMWE1N2QwNDIyYjI0Il0=">
+            <input type="hidden" class="gform_hidden" name="gform_target_page_number_1" id="gform_target_page_number_1" value="0">
+            <input type="hidden" class="gform_hidden" name="gform_source_page_number_1" id="gform_source_page_number_1" value="1">
+            <input type="hidden" name="gform_field_values" value="">
+            
+        </div>
+                        <p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>Δ<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="153"><script type="rocketlazyloadscript">document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>
+                        </div><script type="rocketlazyloadscript" data-rocket-type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {gformInitSpinner( 1, 'https://ryazbek.com.br/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'https://ryazbek.com.br/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);                if (event && event.defaultPrevented) {                return;         }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;                function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            jQuery( document ).trigger( 'gform_post_render', [1, current_page] );            gform.utils.trigger( { event: 'gform/postRender', native: false, data: { formId: 1, currentPage: current_page } } );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} ); 
+/* ]]> */
+});</script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div></div></div></div>
+</section>
+        </div>
+    </div>
+    
+        <div data-wpr-lazyrender="1" id="tm-bottom-d" class="uk-block tm-block-padding-collapse uk-block-default">
+        <div class="">
+            <section class="tm-bottom-d uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin=""><div class="uk-width-1-1">
+	<div class="uk-panel widget_custom_html"><div class="textwidget custom-html-widget"><div class="via-footer">
+	<div class="via-footer-container">
+		<div class="tm-container uk-container-center">
+			<div class="uk-grid uk-grid-width-large-1-2" data-uk-grid-margin="">
+				<div>
+					<div class="uk-grid uk-grid-medium">
+						<div class="uk-width-large-2-3">
+							<div class="uk-panel">
+								<div class="uk-hidden-small">
+									<img src="images/logo-rodape.svg" width="180" height="auto" alt="Logo Y Construtora">
+									<p class="uk-margin-top uk-margin-bottom uk-width-xlarge-8-10 uk-width-large-9-10 uk-width-medium-1-2">Há mais de 29 anos construímos muito mais do que m². Construímos sonhos, laços, felicidade, realização, lares, confiança.</p>
+								</div>
+								<div class="uk-panel uk-flex uk-flex-middle">
+									<a href="#" class="uk-icon-button uk-icon-facebook" title="Facebook" target="blank" rel="noopener noreferrer"></a>
+									<a href="#" class="uk-icon-button uk-icon-linkedin" title="Linkedin" target="blank" rel="noopener noreferrer"></a>
+									<a href="#" class="uk-icon-button uk-icon-instagram" title="Instagram" target="blank" rel="noopener noreferrer"></a>
+								</div>
+							</div>
+						</div>
+						<div class="uk-width-large-1-3 uk-visible-large">
+							<div class="uk-panel">
+								<p class="uk-text-uppercase uk-text-bold uk-text-small uk-margin-bottom" style="margin-top: 15px;">Empreendimentos</p>
+								<ul class="uk-list uk-margin-remove">
+									<li><a href="#" title="Quero Comprar">Quero Comprar</a></li>
+									<li><a href="#" title="Quero Construir">Quero Construir</a></li>
+									<li><a href="#" title="Portfólio">Portfólio</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="uk-grid uk-grid-width-large-1-2">
+						<div class="uk-visible-large">
+							<div class="uk-panel">
+								<p class="uk-text-uppercase uk-text-bold uk-text-small uk-margin-bottom" style="margin-top: 15px;">Menu</p>
+								<div class="uk-grid uk-grid-small">
+									<div class="uk-width-medium-1-2">
+										<div class="uk-panel">
+											<ul class="uk-list ">
+												<li><a href="#" title="Conheça a Y Construtora">Conheça a <br>Y Construtora</a></li>
+												<li><a href="#" target="blank" rel="noopener">Corretores<br>e Imobiliárias</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="uk-width-medium-1-2">
+										<div class="uk-panel">
+											<ul class="uk-list">
+												<li><a href="#" title="Blog">Blog</a></li>
+												<li><a href="#" title="Contato">Contato</a></li>
+												<li><a href="#" target="blank" rel="noopener">Y Construtora Social</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="uk-hidden-medium">
+							<div class="uk-panel">
+								<p class="uk-text-uppercase uk-text-bold uk-text-small uk-margin-bottom" style="margin-top: 15px;">Central de relacionamento</p>
+								<p class="uk-text-contrast uk-h3 uk-margin-remove uk-text-bold uk-flex uk-flex-middle uk-visible-large"><i class="uk3-icon-grid" style="min-width: 21px; margin-right: 10px;"></i>+55  (19)  0000.0000</p>
+								<a href="tel:+551130548500" title="+55 (11) 3054.8500" class="uk-text-contrast uk-h3 uk-margin-remove uk-text-bold uk-flex uk-flex-middle uk-hidden-large"><i class="uk3-icon-grid" style="min-width: 21px; margin-right: 10px;"></i>+55  (19)  0000.0000</a>
+								<a href="email@gmail.com" title="email@gmail.com" class="uk-flex uk-flex-middle uk-margin-small-top"><i class="uk-icon-envelope-o" style="min-width: 21px; font-size: 20px; margin-right: 10px;"></i><span class="__cf_email__" data-cfemail="">email@gmail.com</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="uk-grid uk-grid-width-medium-1-3 uk-visible-medium">
+				<div>
+					<div class="uk-panel">
+						<p class="uk-text-uppercase uk-text-bold uk-text-small uk-margin-bottom" style="margin-top: 15px;">Empreendimentos</p>
+						<ul class="uk-list uk-margin-remove">
+							<li><a href="#" title="Quero Comprar">Quero Comprar</a></li>
+							<li><a href="#" title="Quero Construir">Quero Construir</a></li>
+							<li><a href="#" title="Portfólio">Portfólio</a></li>
+						</ul>
+					</div>
+				</div>
+				<div>
+					<div class="uk-panel">
+						<p class="uk-text-uppercase uk-text-bold uk-text-small uk-margin-bottom" style="margin-top: 15px;">Menu</p>
+						<div class="uk-grid">
+							<div class="uk-width-medium-1-2">
+								<div class="uk-panel">
+									<ul class="uk-list ">
+										<li><a href="#" title="Conheça a Y Construtora">Conheça a <br>Y Construtora</a></li>
+										<li><a href="#" target="blank" title="Corretores e Imobiliárias" rel="noopener">Corretores<br>e Imobiliárias</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="uk-width-medium-1-2">
+								<div class="uk-panel">
+									<ul class="uk-list">
+										<li><a href="#" title="Blog">Blog</a></li>
+										<li><a href="#" title="Contato">Contato</a></li>
+										<li><a href="#" target="blank" rel="noopener">Y Construtora Social</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="uk-panel">
+						<p class="uk-text-uppercase uk-text-bold uk-text-small uk-margin-bottom" style="margin-top: 15px;">Central de relacionamento</p>
+						<a href="tel:+551130548500" title="+55 (11) 3054.8500" class="uk-text-contrast uk-h3 uk-margin-remove uk-text-bold uk-flex uk-flex-middle uk-hidden-large"><i class="uk3-icon-grid" style="min-width: 21px; margin-right: 10px;"></i>+55  (19)  0000.0000</a>
+						<a href="email@gmail.com" title="email@gmail.com" class="uk-flex uk-flex-middle uk-margin-small-top"><i class="uk-icon-envelope-o" style="min-width: 21px; font-size: 20px; margin-right: 10px;"></i><span class="__cf_email__" data-cfemail="">email@gmail.com</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="via-footer-copyright">
+		<div class="tm-container uk-container-center">
+			<div class="uk-flex uk-flex-middle uk-flex-space-between via-flex-disable-small">
+				<div>
+					<p class="uk-margin-remove uk-visible-large">© Jackoffee 2024. Todos os direitos reservados  -  <a href="#" title="Política de privacidade">Política de privacidade</a>  -  R. Fantasia, 999 - 9° Andar. Campinas - São Paulo/SP - Brasil.  CEP 13000-000</p>
+					<p class="uk-margin-remove uk-visible-medium">© Jackoffee 2024. Todos os direitos reservados  -  <a href="#" title="Política de privacidade">Política de privacidade</a><br>R. Fantasia, 999 - 9° Andar. Campinas - São Paulo/SP - Brasil.  CEP 13000-000</p>
+					<p class="uk-margin-remove uk-visible-small">
+						© Jackoffee 2024.<br>Todos os direitos reservados<br>
+						<a href="#" title="Política de privacidade">Política de privacidade</a><br>
+						R. Fantasia, 999 - 9° Andar. Campinas<br>
+						São Paulo/SP - Brasil.  CEP 13000-000
+					</p>
+					
+				</div>
+				<div>
+					<a class="via-agencia uk-text-center" href="#" target="blank" data-uk-tooltip="{pos:'top'}" rel="noopener noreferrer">
+						<svg viewBox="0 0 108.355 44.563"><g data-name="Logo Positivo"><path class="via-logo" d="M62.578 44.562h8.03a4.447 4.447 0 0 0 3.779-2.1l11.08-17.728 11.08 17.728a4.447 4.447 0 0 0 3.779 2.1h8.03l-8.03-12.847-11.04-17.664a4.423 4.423 0 0 0-.649-.838l-.023-.023-.023-.023a4.425 4.425 0 0 0-1.163-.825l-.016-.008-.069-.033-.042-.019-.035-.016a4.45 4.45 0 0 0-3.6 0l-.035.016-.042.019-.069.033-.016.008a4.423 4.423 0 0 0-1.163.825l-.023.023-.023.023a4.423 4.423 0 0 0-.649.838L70.608 31.715l-8.03 12.847zm-23.775 0h8.03a4.447 4.447 0 0 0 3.779-2.1l15.426-24.681 1.48-2.368 2.2-3.526h-8.03a4.447 4.447 0 0 0-3.774 2.102l-2.525 4.04L38.8 44.562zM0 11.889h8.03a4.447 4.447 0 0 1 3.77 2.1l11.142 17.726 18.51-29.616a4.447 4.447 0 0 1 3.779-2.1h8.03l-26.5 42.4a4.422 4.422 0 0 1-.649.838l-.023.023-.023.023a4.423 4.423 0 0 1-1.163.825l-.016.008-.069.033-.042.019-.035.016a4.45 4.45 0 0 1-3.6 0l-.035-.016-.042-.019-.064-.034-.016-.008a4.425 4.425 0 0 1-1.163-.825l-.023-.023-.023-.023a4.423 4.423 0 0 1-.649-.838C12.768 32.229 6.355 22.055 0 11.889z" data-name="Path 675"></path></g></svg>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div></div></div>
+</section>
+        </div>
+    </div>
+    
+    
+    <script data-cfasync="false" src="js/email-decode.min.js"></script><script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://ryazbek.com.br/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://ryazbek.com.br/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://ryazbek.com.br/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="wp-a11y-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2024-10-21 17:22:37+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n > 1;","lang":"pt_BR"},"Notifications":["Notifica\u00e7\u00f5es"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://ryazbek.com.br/wp-includes/js/dist/a11y.min.js?ver=d90eebea464f6c09bfd5" id="wp-a11y-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" defer="defer" data-rocket-src="https://ryazbek.com.br/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.8.18" id="gform_placeholder-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" defer="defer" data-rocket-src="https://ryazbek.com.br/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=54e7080aa7a02c83aa61fae430b9d869" id="gform_gravityforms_theme_vendors-js"></script>
+<script type="text/javascript" id="gform_gravityforms_theme-js-extra">
+/* <![CDATA[ */
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"c04dc12b286c6dcd26bc4362893a58e8"}}},"hmr_dev":"","public_path":"https:\/\/ryazbek.com.br\/wp-content\/plugins\/gravityforms\/assets\/js\/dist\/"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" defer="defer" data-rocket-src="https://ryazbek.com.br/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=bab19fd84843dabc070e73326d787910" id="gform_gravityforms_theme-js"></script>
+<script type="rocketlazyloadscript" data-minify="1" defer="" data-rocket-type="text/javascript" data-rocket-src="https://ryazbek.com.br/wp-content/cache/min/1/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1731086924" id="akismet-frontend-js"></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://ryazbek.com.br/wp-content/cache/min/1/wp-content/plugins/gallery-by-supsystic/src/GridGallery/Colorbox/jquery-colorbox/jquery.colorbox.js?ver=1731086924" id="jquery.colorbox.js-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://ryazbek.com.br/wp-content/cache/min/1/wp-content/plugins/gallery-by-supsystic/src/GridGallery/Colorbox/jquery-colorbox/i18n/jquery.colorbox-pt-br.js?ver=1731086924" id="jquery.colorbox-pt-br.js-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } ); 
+/* ]]> */
+});</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "1", abort: function() { this.preventDefault(); } }]);                if (event && event.defaultPrevented) {                return;         }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;                function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            jQuery( document ).trigger( 'gform_post_render', [1, 1] );            gform.utils.trigger( { event: 'gform/postRender', native: false, data: { formId: 1, currentPage: 1 } } );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } ); 
+/* ]]> */
+});</script>
+<script>window.lazyLoadOptions={elements_selector:"iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async="" src="js/lazyload.min.js"></script><script>function lazyLoadThumb(e,alt,l){var t='<img src="https://i.ytimg.com/vi_webp/ID/hqdefault.webp" alt="" width="480" height="360">',a='<button class="play" aria-label="play Youtube video"></button>';if(l){t=t.replace('data-lazy-','');t=t.replace('loading="lazy"','');t=t.replace(/<noscript>.*?<\/noscript>/g,'');}t=t.replace('alt=""','alt="'+alt+'"');return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?"":"&"+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var exclusions=["via-imagem-banner-1"];var e,t,p,u,l,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)(e=document.createElement("div")),(u='https://i.ytimg.com/vi_webp/ID/hqdefault.webp'),(u=u.replace('ID',a[t].dataset.id)),(l=exclusions.some(exclusion=>u.includes(exclusion))),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query",a[t].dataset.query),e.setAttribute("data-src",a[t].dataset.src),(e.innerHTML=lazyLoadThumb(a[t].dataset.id,a[t].dataset.alt,l)),a[t].appendChild(e),(p=e.querySelector(".play")),(p.onclick=lazyLoadYoutubeIframe)});</script>
+<script type="rocketlazyloadscript">
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1700948,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+        <div id="offcanvas" class="uk-offcanvas">
+        <div class="uk-offcanvas-bar">
+            <div class="uk-panel uk-padding-top-remove uk-padding-bottom-remove">
+                <div class="uk-flex uk-flex-space-between uk-flex-middle tm-logo-small">
+                    <div>			            <a href="https://github.com/jackoffee"><div class="textwidget custom-html-widget"><img src="images/logo-small.svg" width="30" height="30" alt="Logo" class="uk-ignore"></div></a>
+			        </div> 
+                    <div><button class="uk-offcanvas-close uk-close" type="button"></button></div>
+                </div>
+            </div>
+            <ul class="uk-nav uk-nav-offcanvas"><li class="uk-active"><a href="#" class="">Home</a></li><li><a href="#" class="">Sobre nós</a></li><li><a href="#" class="">Quero Comprar</a></li><li><a href="#" class="">Quero Construir</a></li><li><a href="#" class="">Portfólio</a></li><li><a href="#" class="">Blog</a></li><li><a href="#" class="">Contato</a></li></ul>
+<div class="uk-panel widget_custom_html"><div class="textwidget custom-html-widget"><a href="#" class="uk-button uk-margin-top uk-margin-left" title="Corretores e Imobiliárias" data-text="corretores e imobiliárias" target="blank" rel="noopener">corretores e imobiliárias</a></div></div>
+<div class="uk-panel widget_custom_html"><div class="textwidget custom-html-widget"><div class="via-midias-offcanvas uk-block uk-padding-bottom-remove uk-flex uk-flex-middle" style="padding-top: 80px;">
+	<a href="#" class="uk-icon-button uk-icon-facebook" title="Facebook" target="blank" rel="noopener noreferrer"></a>
+	<a href="#" class="uk-icon-button uk-icon-linkedin" title="Linkedin" target="blank" rel="noopener noreferrer"></a>
+	<a href="#" class="uk-icon-button uk-icon-instagram" title="Instagram" target="blank" rel="noopener noreferrer"></a>
+</div></div></div>        </div>
+    </div>
+    
+
+
+
+</body></html>
